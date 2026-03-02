@@ -38,10 +38,10 @@ export default function BSRIAReportPage() {
                         <article>
                             <h2 className="text-3xl font-light text-dh-dark mb-6 tracking-tight">Thermal Output Validation</h2>
                             <p className="text-xl font-light text-dh-dark mb-6 leading-relaxed">
-                                Under BS EN 442-1 (the European standard for radiators and convectors), all emitters must be tested in a standardized environmental chamber to guarantee the manufacturer\'s claimed Watts/Metre outputs.
+                                Under BS EN 442-1 (the European standard for radiators and convectors), all emitters must be tested in a standardized environmental chamber to guarantee the manufacturer\&apos;s claimed Watts/Metre outputs.
                             </p>
                             <p className="text-lg text-dh-grey leading-relaxed mb-12">
-                                ThermaSkirt BM2 and BM3 profiles have undergone rigorous BSRIA testing at both high flow temperatures (dT50) typical of gas boilers, and low flow temperatures (dT20) typical of heat pumps. These verified figures form the basis of our output tables and SAP calculation inputs, giving specifying engineers absolute confidence in the system\'s capability to meet calculated heat losses.
+                                ThermaSkirt BM2 and BM3 profiles have undergone rigorous BSRIA testing at both high flow temperatures (dT50) typical of gas boilers, and low flow temperatures (dT20) typical of heat pumps. These verified figures form the basis of our output tables and SAP calculation inputs, giving specifying engineers absolute confidence in the system\&apos;s capability to meet calculated heat losses.
                             </p>
                         </article>
 

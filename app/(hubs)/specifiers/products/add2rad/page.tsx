@@ -42,7 +42,7 @@ export default function Add2RadPage() {
                                 Moving an older property from a 70°C gas boiler to a 45°C air source heat pump requires significantly more emitter surface area to achieve the same thermal performance.
                             </p>
                             <p className="text-lg text-dh-grey leading-relaxed mb-12">
-                                Often, there simply isn't wall space available to double the size of the existing radiators, and dropping the flow temperature without compensating for area will lead to cold rooms and non-compliance with PAS 2035. The Add2Rad system sidesteps this by turning the room's existing skirting board perimeter into active heating area.
+                                Often, there simply isn&apos;t wall space available to double the size of the existing radiators, and dropping the flow temperature without compensating for area will lead to cold rooms and non-compliance with PAS 2035. The Add2Rad system sidesteps this by turning the room&apos;s existing skirting board perimeter into active heating area.
                             </p>
                         </article>
 

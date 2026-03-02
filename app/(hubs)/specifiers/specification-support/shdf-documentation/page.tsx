@@ -41,7 +41,7 @@ export default function SHDFDocumentationPage() {
                                 Winning SHDF funding requires demonstrating a clear, financially viable pathway to EPC Band C (or higher) using a fabric-first approach integrated with low-carbon heating, managed under the PAS 2035 framework.
                             </p>
                             <p className="text-lg text-dh-grey leading-relaxed mb-12">
-                                When proposing Heat Pumps for social housing, the inevitable problem of emitter sizing arises. Oversized radiators consume tenant space and trigger costly second-fix re-decorations. Underfloor heating requires decanting residents. ThermaSkirt provides the perfect 'sweet spot' for SHDF proposals: maximum low-temperature heat distribution with zero void periods or displacement. Our compliance packs provide the rigorous evidence required by grant assessors to validate this approach.
+                                When proposing Heat Pumps for social housing, the inevitable problem of emitter sizing arises. Oversized radiators consume tenant space and trigger costly second-fix re-decorations. Underfloor heating requires decanting residents. ThermaSkirt provides the perfect &apos;sweet spot&apos; for SHDF proposals: maximum low-temperature heat distribution with zero void periods or displacement. Our compliance packs provide the rigorous evidence required by grant assessors to validate this approach.
                             </p>
                         </article>
 
@@ -56,7 +56,7 @@ export default function SHDFDocumentationPage() {
                                 <ul className="space-y-4 text-dh-grey text-sm mb-4 list-disc pl-5">
                                     <li><strong>Independent SAP Equivalency:</strong> Certificates detailing the SPF improvement of running heat pumps at 40°C on ThermaSkirt vs 50°C on standard panels.</li>
                                     <li><strong>Resident Disruption Analysis:</strong> Time-and-motion studies proving 2-day install times in occupied properties, mitigating temporary accommodation costs from your bid.</li>
-                                    <li><strong>Moisture & Mould (Awaab\'s Law):</strong> Documentation outlining how perimeter baseline heating actively combats the cold-bridging condensation common in solid-wall social housing.</li>
+                                    <li><strong>Moisture & Mould (Awaab\&apos;s Law):</strong> Documentation outlining how perimeter baseline heating actively combats the cold-bridging condensation common in solid-wall social housing.</li>
                                     <li><strong>Lifecycle Impact Data:</strong> 75% recycled aluminium embodied carbon stats to satisfy strict ESG criteria in public procurement scoring.</li>
                                 </ul>
                                 <a href="/specifiers/specification-support/design-service" className="text-dh-red font-semibold hover:underline text-sm">Request a Customised Bid Pack &rarr;</a>

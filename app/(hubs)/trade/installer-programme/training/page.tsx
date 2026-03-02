@@ -1,6 +1,4 @@
 import SubHubHero from '@/components/server/SubHubHero';
-import FAQText from '@/components/server/FAQText';
-import CTABanner from '@/components/blocks/CTABanner';
 import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 import { Laptop, Combine } from 'lucide-react';
 
@@ -45,7 +43,7 @@ export default function TrainingAcademyPage() {
                     <div className="text-center max-w-3xl mx-auto mb-16">
                         <h2 className="text-3xl font-bold text-dh-dark mb-6">Two Ways to Certify</h2>
                         <p className="text-lg text-dh-grey mb-8">
-                            Time off the tools costs money. That's why we've built a comprehensive online certification that you can complete in an evening. For those wanting hands-on experience before a big job, our HQ runs monthly training days.
+                            Time off the tools costs money. That&apos;s why we&apos;ve built a comprehensive online certification that you can complete in an evening. For those wanting hands-on experience before a big job, our HQ runs monthly training days.
                         </p>
                     </div>
 
@@ -74,7 +72,7 @@ export default function TrainingAcademyPage() {
                                 </li>
                                 <li className="flex items-start">
                                     <span className="w-1.5 h-1.5 rounded-full bg-dh-red mt-2 mr-3 flex-shrink-0"></span>
-                                    <span className="text-dh-grey">Instantly unlocks full 'Registered Installer' status upon passing.</span>
+                                    <span className="text-dh-grey">Instantly unlocks full &apos;Registered Installer&apos; status upon passing.</span>
                                 </li>
                             </ul>
 
@@ -117,11 +115,11 @@ export default function TrainingAcademyPage() {
                     <div className="bg-dh-grey-light rounded-2xl p-8 lg:p-12 text-center border border-black/5">
                         <Combine className="w-12 h-12 text-dh-red mx-auto mb-6" />
                         <h2 className="text-2xl font-bold text-dh-dark mb-4">Core Curriculum</h2>
-                        <p className="text-dh-grey mb-8 max-w-2xl mx-auto">Regardless of which method you choose to certify, the curriculum focuses heavily on speed and accuracy. You'll learn:</p>
+                        <p className="text-dh-grey mb-8 max-w-2xl mx-auto">Regardless of which method you choose to certify, the curriculum focuses heavily on speed and accuracy. You&apos;ll learn:</p>
 
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-left">
                             <div className="bg-white p-4 rounded-xl shadow-sm border border-black/5 text-sm font-semibold text-dh-dark">First-fix pipework templates</div>
-                            <div className="bg-white p-4 rounded-xl shadow-sm border border-black/5 text-sm font-semibold text-dh-dark">Push-fit 'O' ring connections</div>
+                            <div className="bg-white p-4 rounded-xl shadow-sm border border-black/5 text-sm font-semibold text-dh-dark">Push-fit &apos;O&apos; ring connections</div>
                             <div className="bg-white p-4 rounded-xl shadow-sm border border-black/5 text-sm font-semibold text-dh-dark">Internal & External corner cuts</div>
                             <div className="bg-white p-4 rounded-xl shadow-sm border border-black/5 text-sm font-semibold text-dh-dark">Avoiding flow restriction</div>
                             <div className="bg-white p-4 rounded-xl shadow-sm border border-black/5 text-sm font-semibold text-dh-dark">System pressure testing</div>

@@ -41,7 +41,7 @@ export default function PartLCompliancePage() {
                                 Under the latest revisions of Approved Document L, achieving compliance on the Standard Assessment Procedure (SAP) relies heavily on deploying the lowest possible flow temperature from the primary generator.
                             </p>
                             <p className="text-lg text-dh-grey leading-relaxed mb-12">
-                                Energy assessors are frequently forced back to the architectural drawing board: "We need thicker cavity walls", or "You must double the solar PV array". These interventions are massively expensive. An alternative lever within the SAP software is to specify a high-efficiency continuous radiant emitter operating at severe low temperatures (typically a 35°C—40°C flow), instantly improving the heat pump\'s SPF (Seasonal Performance Factor).
+                                Energy assessors are frequently forced back to the architectural drawing board: &quot;We need thicker cavity walls&quot;, or &quot;You must double the solar PV array&quot;. These interventions are massively expensive. An alternative lever within the SAP software is to specify a high-efficiency continuous radiant emitter operating at severe low temperatures (typically a 35°C—40°C flow), instantly improving the heat pump\&apos;s SPF (Seasonal Performance Factor).
                             </p>
                         </article>
 

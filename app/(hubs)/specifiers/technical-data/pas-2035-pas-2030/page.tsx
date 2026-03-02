@@ -41,7 +41,7 @@ export default function PASCompliancePage() {
                                 Under PAS 2035/2030, transitioning a property off fossil fuels often requires an Air Source Heat Pump (ASHP) scaled to 45°C. When a Retrofit Coordinator runs the output calculations, they routinely hit an impassable blockage.
                             </p>
                             <p className="text-lg text-dh-grey leading-relaxed mb-12">
-                                Standard Type 11 or Type 22 radiators simply cannot distribute enough heat at these low flow temperatures. To maintain room design temperature, the radiators must be ripped out and replaced with units two to three times larger. In densely packed social housing or terraced properties, losing that volume of floor space is unacceptable to the tenant/owner. Alternatively, tearing up the floors for Underfloor Heating (UFH) triggers massive 'unintended consequences'—requiring decanting tenants to temporary housing, destroying acoustic flooring structures, and blowing the SHDF budget entirely.
+                                Standard Type 11 or Type 22 radiators simply cannot distribute enough heat at these low flow temperatures. To maintain room design temperature, the radiators must be ripped out and replaced with units two to three times larger. In densely packed social housing or terraced properties, losing that volume of floor space is unacceptable to the tenant/owner. Alternatively, tearing up the floors for Underfloor Heating (UFH) triggers massive &apos;unintended consequences&apos;—requiring decanting tenants to temporary housing, destroying acoustic flooring structures, and blowing the SHDF budget entirely.
                             </p>
                         </article>
 
@@ -52,7 +52,7 @@ export default function PASCompliancePage() {
                                 ThermaSkirt avoids these pitfalls simultaneously. Because it acts as both the skirting board and the primary radiant heating emitter, it spreads a massive active surface area around the perimeter without intruding into the room footprint.
                             </p>
                             <div className="p-6 bg-dh-grey-light rounded-2xl border border-dh-grey-light/50 my-8">
-                                <h4 className="text-lg font-semibold text-dh-dark mb-2">Technical Note: Moisture and 'Awaab's Law'</h4>
+                                <h4 className="text-lg font-semibold text-dh-dark mb-2">Technical Note: Moisture and &apos;Awaab&apos;s Law&apos;</h4>
                                 <p className="text-dh-grey text-sm mb-4">
                                     PAS 2035 actively emphasizes managing moisture to combat damp and mould. Standard solid wall retrofits suffer from aggressive cold-bridging at the floor/wall perimeter junction. By running warm water entirely around this perimeter, ThermaSkirt actively dries this high-risk zone, directly combatting black mould proliferation. Full PAS 2035 compliance briefs and output tables are available in the specifiers pack.
                                 </p>

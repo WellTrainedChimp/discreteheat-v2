@@ -50,7 +50,7 @@ export default function KitchenPlinthPage() {
                             <span className="block text-[13px] font-semibold uppercase tracking-[0.08em] text-dh-red mb-4">Silent & Draft-Free</span>
                             <h3 className="text-2xl font-light text-dh-dark mb-6 tracking-tight">The Problem with Fan Convectors</h3>
                             <p className="text-lg text-dh-grey leading-relaxed mb-6">
-                                Traditional 'plinth heaters' utilize motorized fans blowing over a small heat exchanger. They are notoriously noisy, they drag pet hair and dust across the kitchen floor and continuously blow it into the air, and their electric motors frequently fail.
+                                Traditional &apos;plinth heaters&apos; utilize motorized fans blowing over a small heat exchanger. They are notoriously noisy, they drag pet hair and dust across the kitchen floor and continuously blow it into the air, and their electric motors frequently fail.
                             </p>
                             <div className="p-6 bg-dh-grey-light rounded-2xl border border-dh-grey-light/50 my-8">
                                 <h4 className="text-lg font-semibold text-dh-dark mb-2">Technical Note: Passive Radiant Efficiency</h4>

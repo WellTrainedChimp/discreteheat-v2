@@ -49,7 +49,7 @@ export default function EnergyHouseReportPage() {
                             <span className="block text-[13px] font-semibold uppercase tracking-[0.08em] text-dh-red mb-4">Key Finding 1</span>
                             <h3 className="text-2xl font-light text-dh-dark mb-6 tracking-tight">Up to 13% Energy Savings</h3>
                             <p className="text-lg text-dh-grey leading-relaxed mb-6">
-                                The report concluded that because ThermaSkirt emits radiant heat from the perimeter baseline of the room, it achieves a comfortable \'operative temperature\' sooner and sustains it with less absolute energy input from the source compared to convective radiators that push hot air to the ceiling.
+                                The report concluded that because ThermaSkirt emits radiant heat from the perimeter baseline of the room, it achieves a comfortable \&apos;operative temperature\&apos; sooner and sustains it with less absolute energy input from the source compared to convective radiators that push hot air to the ceiling.
                             </p>
                             <div className="p-6 bg-dh-grey-light rounded-2xl border border-dh-grey-light/50 my-8">
                                 <h4 className="text-lg font-semibold text-dh-dark mb-2">Technical Note: Thermal Stratification</h4>

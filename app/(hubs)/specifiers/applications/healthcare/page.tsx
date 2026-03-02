@@ -50,7 +50,7 @@ export default function HealthcarePage() {
                             <span className="block text-[13px] font-semibold uppercase tracking-[0.08em] text-dh-red mb-4">Infection Control</span>
                             <h3 className="text-2xl font-light text-dh-dark mb-6 tracking-tight">Zero Dust Traps</h3>
                             <p className="text-lg text-dh-grey leading-relaxed mb-6">
-                                The EasyClean profile features no top grilles or open airways. By acting as a radiant emitter rather than a convector, it doesn't drag contaminated air off the floor and distribute it into the breathing zone—crucial for preventing Hospital Acquired Infections (HAIs).
+                                The EasyClean profile features no top grilles or open airways. By acting as a radiant emitter rather than a convector, it doesn&apos;t drag contaminated air off the floor and distribute it into the breathing zone—crucial for preventing Hospital Acquired Infections (HAIs).
                             </p>
                             <div className="p-6 bg-dh-grey-light rounded-2xl border border-dh-grey-light/50 my-8">
                                 <h4 className="text-lg font-semibold text-dh-dark mb-2">Technical Note: BSRIA Validation</h4>

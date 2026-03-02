@@ -1,5 +1,4 @@
 import SubHubHero from '@/components/server/SubHubHero';
-import FAQText from '@/components/server/FAQText';
 import CTABanner from '@/components/blocks/CTABanner';
 import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 
@@ -81,7 +80,7 @@ export default function FlowTemperatureCalculatorPage() {
                         <div className="bg-white border-2 border-black/10 rounded-2xl p-8">
                             <h3 className="text-lg font-bold text-dh-dark mb-4 border-b border-black/10 pb-4">The Correction Factor</h3>
                             <p className="text-dh-grey text-sm leading-relaxed mb-4">
-                                By doubling or tripling the total emission surface area configured "in series", the system can run at the heat pump's required 45°C flow temperature while still satisfying the total wattage load required by the room calculation.
+                                By doubling or tripling the total emission surface area configured &quot;in series&quot;, the system can run at the heat pump&apos;s required 45°C flow temperature while still satisfying the total wattage load required by the room calculation.
                             </p>
                             <p className="text-dh-grey text-sm leading-relaxed">
                                 Ensure the Add2Rad manifold routes hot flow into the skirting first, maximizing radiant perimeter spread.

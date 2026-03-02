@@ -41,7 +41,7 @@ export default function WaterTreatmentPage() {
                                 ThermaSkirt is manufactured from an aerospace-grade aluminium alloy. Aluminium is highly reactive to incorrect pH levels and oxygenated water, making chemical dosing mandatory.
                             </p>
                             <p className="text-lg text-dh-grey leading-relaxed mb-12">
-                                In mixed-metal domestic heating systems (e.g., copper pipes, steel radiators, brass valves, and aluminium skirting), galvanic corrosion can occur if the water acts as an electrolyte. Furthermore, flux residues, installation debris, and magnetite (black sludge) left in the pipework can cause localized pitting or blockages. Strict adherence to BS 7593:2019 (Code of practice for the preparation, commissioning, and maintenance of domestic central heating and cooling water systems) is required to validate the manufacturer\'s warranty.
+                                In mixed-metal domestic heating systems (e.g., copper pipes, steel radiators, brass valves, and aluminium skirting), galvanic corrosion can occur if the water acts as an electrolyte. Furthermore, flux residues, installation debris, and magnetite (black sludge) left in the pipework can cause localized pitting or blockages. Strict adherence to BS 7593:2019 (Code of practice for the preparation, commissioning, and maintenance of domestic central heating and cooling water systems) is required to validate the manufacturer\&apos;s warranty.
                             </p>
                         </article>
 

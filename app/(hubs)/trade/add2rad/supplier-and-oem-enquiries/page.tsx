@@ -1,6 +1,4 @@
 import SubHubHero from '@/components/server/SubHubHero';
-import FAQText from '@/components/server/FAQText';
-import CTABanner from '@/components/blocks/CTABanner';
 import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 
 export const metadata = {
@@ -52,7 +50,7 @@ export default function SupplierOEMEnquiriesPage() {
                             </div>
                             <div className="bg-white p-6 rounded-xl border border-black/5 shadow-sm">
                                 <h3 className="text-lg font-bold text-dh-dark mb-2">National Merchants</h3>
-                                <p className="text-dh-grey text-sm">We provide pre-packaged Add2Rad 'starter kits' including the TRV bypass blocks and standard 3m lengths for immediate counter sales, supported by point-of-sale displays.</p>
+                                <p className="text-dh-grey text-sm">We provide pre-packaged Add2Rad &apos;starter kits&apos; including the TRV bypass blocks and standard 3m lengths for immediate counter sales, supported by point-of-sale displays.</p>
                             </div>
                             <div className="bg-white p-6 rounded-xl border border-black/5 shadow-sm">
                                 <h3 className="text-lg font-bold text-dh-dark mb-2">Training Academy Swaps</h3>

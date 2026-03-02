@@ -1,5 +1,4 @@
 import SubHubHero from '@/components/server/SubHubHero';
-import FAQText from '@/components/server/FAQText';
 import CTABanner from '@/components/blocks/CTABanner';
 import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 
@@ -56,11 +55,11 @@ export default function HeatPumpInstallerGuidePage() {
                             </div>
                             <div className="bg-white p-6 rounded-xl border border-black/5 shadow-sm">
                                 <span className="block font-bold text-dh-dark mb-2">Port B (Side)</span>
-                                <span className="text-dh-grey">Push-fit 'O' ring directly into the ThermaSkirt twin-pipe extrusion.</span>
+                                <span className="text-dh-grey">Push-fit &apos;O&apos; ring directly into the ThermaSkirt twin-pipe extrusion.</span>
                             </div>
                             <div className="bg-white p-6 rounded-xl border border-black/5 shadow-sm">
                                 <span className="block font-bold text-dh-dark mb-2">Port C (Top)</span>
-                                <span className="text-dh-grey">Customized chrome vertical pipe routing up to the radiator's inlet.</span>
+                                <span className="text-dh-grey">Customized chrome vertical pipe routing up to the radiator&apos;s inlet.</span>
                             </div>
                             <div className="bg-white p-6 rounded-xl border border-black/5 shadow-sm">
                                 <span className="block font-bold text-dh-dark mb-2">TRV Head</span>
@@ -116,7 +115,7 @@ export default function HeatPumpInstallerGuidePage() {
                             </div>
                             <div className="bg-white/10 p-5 rounded-xl border border-white/20">
                                 <span className="block font-bold text-dh-red mb-1">Radiator Tapping</span>
-                                <span className="text-gray-400">The Add2Rad TRV block requires a standard 1/2" BSP radiator tapping block. Custom designer-radiator threads may require step-down adaptors.</span>
+                                <span className="text-gray-400">The Add2Rad TRV block requires a standard 1/2&quot; BSP radiator tapping block. Custom designer-radiator threads may require step-down adaptors.</span>
                             </div>
                             <div className="bg-white/10 p-5 rounded-xl border border-white/20">
                                 <span className="block font-bold text-dh-red mb-1">Pump Head Pressure</span>

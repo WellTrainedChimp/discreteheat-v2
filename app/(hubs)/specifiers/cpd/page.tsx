@@ -29,7 +29,7 @@ export default function CPDHubPage() {
                 <section className="py-20 px-6 lg:px-12 bg-white">
                     <div className="max-w-5xl mx-auto space-y-12">
                         <article>
-                            <h2 className="text-3xl font-light text-dh-dark mb-6 tracking-tight">The "Low Flow Radiance" Presentation</h2>
+                            <h2 className="text-3xl font-light text-dh-dark mb-6 tracking-tight">The &quot;Low Flow Radiance&quot; Presentation</h2>
                             <p className="text-xl font-light text-dh-dark mb-6 leading-relaxed">
                                 Our flagship CIBSE-assessed CPD module provides a rigorous, data-driven analysis of thermal emitter performance under the incoming Future Homes Standard and PAS 2035 frameworks.
                             </p>

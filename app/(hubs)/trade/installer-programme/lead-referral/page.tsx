@@ -1,6 +1,5 @@
 import SubHubHero from '@/components/server/SubHubHero';
 import FAQText from '@/components/server/FAQText';
-import CTABanner from '@/components/blocks/CTABanner';
 import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 
 export const metadata = {
@@ -46,7 +45,7 @@ export default function LeadReferralPage() {
                             We spend hundreds of thousands of pounds annually marketing ThermaSkirt directly to homeowners via TV, print, and digital channels. We are a manufacturer, not an installation company. This means every lead we generate needs a qualified professional to survey and install the system.
                         </p>
                         <p>
-                            Our lead referral system isn't a paid directory. Installers don't "pay per lead." We distribute work fairly to registered installers based on location, quality of previous work, and customer service records.
+                            Our lead referral system isn&apos;t a paid directory. Installers don&apos;t &quot;pay per lead.&quot; We distribute work fairly to registered installers based on location, quality of previous work, and customer service records.
                         </p>
                     </div>
 
@@ -60,7 +59,7 @@ export default function LeadReferralPage() {
                                 </div>
                                 <div className="pb-8">
                                     <h3 className="text-xl font-bold text-dh-dark mb-2">Homeowner Requests a Quote</h3>
-                                    <p className="text-dh-grey">A homeowner submits their room dimensions, heat source details, and project timeline through the 'Get a Quote' portal on the DiscreteHeat website.</p>
+                                    <p className="text-dh-grey">A homeowner submits their room dimensions, heat source details, and project timeline through the &apos;Get a Quote&apos; portal on the DiscreteHeat website.</p>
                                 </div>
                             </div>
                             <div className="flex gap-6">
@@ -102,7 +101,7 @@ export default function LeadReferralPage() {
                                 </ul>
                             </div>
                             <div className="bg-dh-grey-light rounded-xl p-6 text-sm text-dh-grey italic border-l-4 border-dh-red">
-                                "Before joining, our firm was fighting for bottom-dollar radiator swops. The ThermaSkirt leads come pre-educated—they know the product, they want the premium finish, and they've often already seen the material quote from DiscreteHeat. We just go in, survey, and quote the labor."
+                                &quot;Before joining, our firm was fighting for bottom-dollar radiator swops. The ThermaSkirt leads come pre-educated—they know the product, they want the premium finish, and they&apos;ve often already seen the material quote from DiscreteHeat. We just go in, survey, and quote the labor.&quot;
                                 <span className="block font-bold text-dh-dark mt-2 not-italic">— J. Barnes, Platinum Installer</span>
                             </div>
                         </div>

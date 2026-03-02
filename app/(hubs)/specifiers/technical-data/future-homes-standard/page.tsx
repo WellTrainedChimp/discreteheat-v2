@@ -38,7 +38,7 @@ export default function FutureHomesStandardPage() {
                         <article>
                             <h2 className="text-3xl font-light text-dh-dark mb-6 tracking-tight">The 2025 Challenge</h2>
                             <p className="text-xl font-light text-dh-dark mb-6 leading-relaxed">
-                                Under the Future Homes Standard 2025 (FHS), homes built in the UK will be 'zero-carbon ready' — meaning no new gas network connections and an exclusive reliance on low-carbon technology like Air Source Heat Pumps (ASHPs).
+                                Under the Future Homes Standard 2025 (FHS), homes built in the UK will be &apos;zero-carbon ready&apos; — meaning no new gas network connections and an exclusive reliance on low-carbon technology like Air Source Heat Pumps (ASHPs).
                             </p>
                             <p className="text-lg text-dh-grey leading-relaxed mb-12">
                                 Because heat pumps are only efficient at low flow temperatures (typically 35–45°C), the required surface area for heating emitters scales dramatically. Implementing standard steel radiators across an entire modern housing estate to meet FHS yields massive, visually oppressive panels consuming critical saleable floor space. Conversely, installing Underfloor Heating (UFH) delays screeding, forces complex construction phasing, and prevents M&E and joiners from advancing efficiently.

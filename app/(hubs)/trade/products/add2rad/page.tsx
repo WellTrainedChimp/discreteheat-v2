@@ -1,6 +1,4 @@
 import SubHubHero from '@/components/server/SubHubHero';
-import FAQText from '@/components/server/FAQText';
-import CTABanner from '@/components/blocks/CTABanner';
 import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 
 export const metadata = {

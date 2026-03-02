@@ -1,6 +1,4 @@
 import SubHubHero from '@/components/server/SubHubHero';
-import FAQText from '@/components/server/FAQText';
-import CTABanner from '@/components/blocks/CTABanner';
 import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 import { ClipboardList, Calculator, PhoneCall } from 'lucide-react';
 
@@ -52,7 +50,7 @@ export default function QuotingForAdd2RadPage() {
                                 <ClipboardList className="w-8 h-8 text-dh-red" />
                             </div>
                             <h3 className="text-xl font-bold text-dh-dark mb-3">1. Submit Specs</h3>
-                            <p className="text-dh-grey text-sm">Send us the linear meterage of the room's perimeter, the size of the existing radiator, and confirm the tail pipe size (10mm or 15mm).</p>
+                            <p className="text-dh-grey text-sm">Send us the linear meterage of the room&apos;s perimeter, the size of the existing radiator, and confirm the tail pipe size (10mm or 15mm).</p>
                         </div>
 
                         <div className="bg-white p-8 rounded-2xl border-2 border-black/10 text-center relative z-10 shadow-lg border-dh-red/20 transform md:-translate-y-2">

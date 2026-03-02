@@ -38,10 +38,10 @@ export default function LowTempPerformancePage() {
                         <article>
                             <h2 className="text-3xl font-light text-dh-dark mb-6 tracking-tight">The CoP Relationship</h2>
                             <p className="text-xl font-light text-dh-dark mb-6 leading-relaxed">
-                                A heat pump\'s Coefficient of Performance (CoP) is a direct, linear inverse of its flow temperature. Drop the water temperature returning to the unit, and the efficiency skyrockets.
+                                A heat pump\&apos;s Coefficient of Performance (CoP) is a direct, linear inverse of its flow temperature. Drop the water temperature returning to the unit, and the efficiency skyrockets.
                             </p>
                             <p className="text-lg text-dh-grey leading-relaxed mb-12">
-                                However, dropping the flow temperature strips the thermal output from standard radiators. A Type 22 convector radiator designed to emit 1500W at 75°C will only emit around 450W at 45°C. To compensate, a radiator three times the size must be installed, resulting in massive, visually intrusive steel boxes ruining the room\'s aesthetics. ThermaSkirt fundamentally solves this geometry problem.
+                                However, dropping the flow temperature strips the thermal output from standard radiators. A Type 22 convector radiator designed to emit 1500W at 75°C will only emit around 450W at 45°C. To compensate, a radiator three times the size must be installed, resulting in massive, visually intrusive steel boxes ruining the room\&apos;s aesthetics. ThermaSkirt fundamentally solves this geometry problem.
                             </p>
                         </article>
 
@@ -54,7 +54,7 @@ export default function LowTempPerformancePage() {
                             <div className="p-6 bg-dh-grey-light rounded-2xl border border-dh-grey-light/50 my-8">
                                 <h4 className="text-lg font-semibold text-dh-dark mb-2">Technical Note: The Convection Stall</h4>
                                 <p className="text-dh-grey text-sm mb-4">
-                                    Radiators rely on \'stack effect\' convection—drawing cold air in at the bottom, heating it, and pushing it out the top. At 40-45°C flow temperatures, the heat differential between the radiator and ambient room air is insufficient to drive a strong convection current. The output "stalls". ThermaSkirt, being a radiant panel, does not rely on intense convection cells, retaining 48% of its output rating at 40°C compared to a radiator\'s 30%. Download the complete performance vs flow-temp curves in our specifier pack.
+                                    Radiators rely on \&apos;stack effect\&apos; convection—drawing cold air in at the bottom, heating it, and pushing it out the top. At 40-45°C flow temperatures, the heat differential between the radiator and ambient room air is insufficient to drive a strong convection current. The output &quot;stalls&quot;. ThermaSkirt, being a radiant panel, does not rely on intense convection cells, retaining 48% of its output rating at 40°C compared to a radiator\&apos;s 30%. Download the complete performance vs flow-temp curves in our specifier pack.
                                 </p>
                                 <a href="/specifiers/specification-support/design-service" className="text-dh-red font-semibold hover:underline text-sm">Download Heat Pump Specifier Pack &rarr;</a>
                             </div>

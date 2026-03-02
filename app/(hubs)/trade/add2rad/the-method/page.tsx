@@ -1,5 +1,4 @@
 import SubHubHero from '@/components/server/SubHubHero';
-import FAQText from '@/components/server/FAQText';
 import CTABanner from '@/components/blocks/CTABanner';
 import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 import { ArrowLeftRight, Droplet, Flame } from 'lucide-react';
@@ -48,7 +47,7 @@ export default function Add2RadMethodPage() {
                             The primary barrier to heat pump deployment in the UK is the disruption caused by replacing radiators and upgrading pipework.
                         </p>
                         <p>
-                            Historically, reducing flow temperatures from 75°C to 45°C required fitting massive "Type 33" radiators that dominate wall space, and frequently required ripping up floors to replace 10mm microbore pipe with 15mm or 22mm to handle the increased flow rates.
+                            Historically, reducing flow temperatures from 75°C to 45°C required fitting massive &quot;Type 33&quot; radiators that dominate wall space, and frequently required ripping up floors to replace 10mm microbore pipe with 15mm or 22mm to handle the increased flow rates.
                         </p>
                         <p className="font-bold text-dh-dark">
                             The Add2Rad method solves this by utilizing the dead space at the perimeter of the room.
@@ -64,7 +63,7 @@ export default function Add2RadMethodPage() {
                             <div className="flex gap-6 items-start">
                                 <div className="mt-1 bg-dh-red p-3 rounded-xl"><ArrowLeftRight className="w-6 h-6 text-white" /></div>
                                 <div>
-                                    <h3 className="text-xl font-bold mb-2">1. The "In-Series" Connection</h3>
+                                    <h3 className="text-xl font-bold mb-2">1. The &quot;In-Series&quot; Connection</h3>
                                     <p className="text-gray-300">
                                         Instead of capping off the existing radiator tails, the Add2Rad manifold blocks connect directly to the existing 10mm or 15mm tails currently serving the radiator.
                                     </p>
@@ -92,11 +91,11 @@ export default function Add2RadMethodPage() {
                     </div>
 
                     <div className="bg-white border-2 border-black/10 rounded-2xl p-8 lg:p-12 mb-16 shadow-sm">
-                        <h2 className="text-2xl font-bold text-dh-dark mb-6">The Plumber's Benefits</h2>
+                        <h2 className="text-2xl font-bold text-dh-dark mb-6">The Plumber&apos;s Benefits</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <div className="bg-dh-grey-light p-6 rounded-xl border border-black/5">
                                 <span className="block font-bold text-dh-red mb-2">No Pipework Upgrades</span>
-                                <p className="text-sm text-dh-grey">Because the thermal load is spread out over more emission area, the volume of water moving through the 10mm microbore is sufficient. You don't need to rip up the carpets to lay 15mm copper.</p>
+                                <p className="text-sm text-dh-grey">Because the thermal load is spread out over more emission area, the volume of water moving through the 10mm microbore is sufficient. You don&apos;t need to rip up the carpets to lay 15mm copper.</p>
                             </div>
                             <div className="bg-dh-grey-light p-6 rounded-xl border border-black/5">
                                 <span className="block font-bold text-dh-red mb-2">Speed of Installation</span>

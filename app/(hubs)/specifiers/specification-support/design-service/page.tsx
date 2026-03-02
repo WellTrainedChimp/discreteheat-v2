@@ -41,7 +41,7 @@ export default function DesignServicePage() {
                                 Specifying a new technology requires absolute confidence that it will perform as intended. Our technical team guarantees this by taking on the design liability for the emitter sizing.
                             </p>
                             <p className="text-lg text-dh-grey leading-relaxed mb-12">
-                                Send us your DWG or PDF construction drawings alongside your target flow temperatures (e.g., 45°C/40°C for an ASHP) and U-values. Using industry-standard software, our engineers generate a comprehensive technical pack detailing the precise linear meterage of ThermaSkirt required in every single room to satisfy the calculated heat losses and achieve your client\'s desired comfort temperatures.
+                                Send us your DWG or PDF construction drawings alongside your target flow temperatures (e.g., 45°C/40°C for an ASHP) and U-values. Using industry-standard software, our engineers generate a comprehensive technical pack detailing the precise linear meterage of ThermaSkirt required in every single room to satisfy the calculated heat losses and achieve your client\&apos;s desired comfort temperatures.
                             </p>
                         </article>
 

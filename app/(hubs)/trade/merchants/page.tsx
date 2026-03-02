@@ -47,7 +47,7 @@ export default function TradeMerchantsHub() {
                                 Stocking ThermaSkirt
                             </h2>
                             <p className="text-lg text-dh-grey leading-relaxed">
-                                Whether you're an independent branch looking to offer a premium alternative to standard radiators, or a national distributor requiring EDI integration and volume pricing, our trade team is structured to support you.
+                                Whether you&apos;re an independent branch looking to offer a premium alternative to standard radiators, or a national distributor requiring EDI integration and volume pricing, our trade team is structured to support you.
                             </p>
                         </div>
 

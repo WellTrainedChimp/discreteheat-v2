@@ -41,7 +41,7 @@ export default function OutputTablesPage() {
                                 ThermaSkirt is sized linearly based on the available perimeter length of the room. Our data sheets provide output in W/m scaled against the Mean Water Temperature (MWT) and Delta T (dT).
                             </p>
                             <p className="text-lg text-dh-grey leading-relaxed mb-12">
-                                For traditional gas boilers operating at a flow of 75°C and return of 65°C in a 20°C room (dT50), the output is highest. For an Air Source Heat Pump (ASHP) operating under the Future Homes Standard at a flow of 45°C and return of 40°C in a 20°C room (dT22.5), the W/m output scales down according to the profile\'s specific BSRIA-tested n-coefficient.
+                                For traditional gas boilers operating at a flow of 75°C and return of 65°C in a 20°C room (dT50), the output is highest. For an Air Source Heat Pump (ASHP) operating under the Future Homes Standard at a flow of 45°C and return of 40°C in a 20°C room (dT22.5), the W/m output scales down according to the profile\&apos;s specific BSRIA-tested n-coefficient.
                             </p>
                         </article>
 

@@ -54,7 +54,7 @@ export default function HeatLossMethodologyPage() {
                             <div className="p-6 bg-dh-grey-light rounded-2xl border border-dh-grey-light/50 my-8">
                                 <h4 className="text-lg font-semibold text-dh-dark mb-2">Technical Note: Modifying standard radiator models</h4>
                                 <p className="text-dh-grey text-sm mb-4">
-                                    If your software suite lacks a specific 'skirting heating' component, ThermaSkirt can generally be modeled accurately in IESve or TAS by inputting it as a continuous low-level hot water radiator with a severely reduced convective fraction and a significantly increased radiant fraction. Furthermore, its extremely low thermal mass allows for much steeper, faster response curves. Full coefficient data is available in the specifiers pack.
+                                    If your software suite lacks a specific &apos;skirting heating&apos; component, ThermaSkirt can generally be modeled accurately in IESve or TAS by inputting it as a continuous low-level hot water radiator with a severely reduced convective fraction and a significantly increased radiant fraction. Furthermore, its extremely low thermal mass allows for much steeper, faster response curves. Full coefficient data is available in the specifiers pack.
                                 </p>
                                 <a href="/specifiers/specification-support/design-service" className="text-dh-red font-semibold hover:underline text-sm">Download M&E Specification Pack &rarr;</a>
                             </div>

@@ -50,7 +50,7 @@ export default function ThermaSkirtH2OPage() {
                             <span className="block text-[13px] font-semibold uppercase tracking-[0.08em] text-dh-red mb-4">Low Flow Viability</span>
                             <h3 className="text-2xl font-light text-dh-dark mb-6 tracking-tight">The dT20 Efficiency Paradox</h3>
                             <p className="text-lg text-dh-grey leading-relaxed mb-6">
-                                Standard steel convectors rapidly lose their ability to induce a convection cell as flow temperatures drop below 50°C. Their output falls off a cliff. Because ThermaSkirt is primarily a radiant emitter stretching around the room's perimeter, it does not rely on intense convection to heat the space.
+                                Standard steel convectors rapidly lose their ability to induce a convection cell as flow temperatures drop below 50°C. Their output falls off a cliff. Because ThermaSkirt is primarily a radiant emitter stretching around the room&apos;s perimeter, it does not rely on intense convection to heat the space.
                             </p>
                             <div className="p-6 bg-dh-grey-light rounded-2xl border border-dh-grey-light/50 my-8">
                                 <h4 className="text-lg font-semibold text-dh-dark mb-2">Technical Note: BSRIA Validation</h4>

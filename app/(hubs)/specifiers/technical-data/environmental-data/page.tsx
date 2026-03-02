@@ -41,7 +41,7 @@ export default function EnvironmentalDataPage() {
                                 Oversized Type 33 steel panel radiators required to satisfy heat pump loads carry immense embodied carbon debt through sheer raw material volume and global shipping logistics.
                             </p>
                             <p className="text-lg text-dh-grey leading-relaxed mb-12">
-                                By contrast, ThermaSkirt drastically reduces the raw mass of material required to satisfy the room\'s thermal output. Because the system utilizes the existing skirting board footprint and removes standard MDF or timber skirting entirely, the consolidated material usage yields a significant net-reduction in the overall Embodied Carbon of the build phase.
+                                By contrast, ThermaSkirt drastically reduces the raw mass of material required to satisfy the room\&apos;s thermal output. Because the system utilizes the existing skirting board footprint and removes standard MDF or timber skirting entirely, the consolidated material usage yields a significant net-reduction in the overall Embodied Carbon of the build phase.
                             </p>
                         </article>
 
@@ -54,7 +54,7 @@ export default function EnvironmentalDataPage() {
                             <div className="p-6 bg-dh-grey-light rounded-2xl border border-dh-grey-light/50 my-8">
                                 <h4 className="text-lg font-semibold text-dh-dark mb-2">Technical Note: 100% Recyclable End-of-Life</h4>
                                 <p className="text-dh-grey text-sm mb-4">
-                                    Aluminium represents the ultimate closed-loop material. Recycling aluminium uses only 5% of the energy required to smelt primary metal from bauxite ore. At the end of a building\'s 40-50 year lifecycle, the ThermaSkirt profiles can simply be unsnapped, melted down, and re-extruded endlessly without any loss of inherent material quality. Detailed ESG and supply-chain providence data are available in the specifiers pack.
+                                    Aluminium represents the ultimate closed-loop material. Recycling aluminium uses only 5% of the energy required to smelt primary metal from bauxite ore. At the end of a building\&apos;s 40-50 year lifecycle, the ThermaSkirt profiles can simply be unsnapped, melted down, and re-extruded endlessly without any loss of inherent material quality. Detailed ESG and supply-chain providence data are available in the specifiers pack.
                                 </p>
                                 <a href="/specifiers/specification-support/design-service" className="text-dh-red font-semibold hover:underline text-sm">Download ESG Specifier Data &rarr;</a>
                             </div>

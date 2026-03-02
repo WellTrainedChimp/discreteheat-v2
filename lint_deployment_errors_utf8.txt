@@ -1,0 +1,222 @@
+﻿
+> discreteheat@0.1.0 lint
+> eslint
+
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\applications\healthcare\page.tsx
+  53:160  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\applications\social-housing\page.tsx
+  66:129  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\cpd\page.tsx
+  32:102  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  32:120  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\products\add2rad\page.tsx
+  45:56   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  45:301  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\products\kitchen-plinth\page.tsx
+  53:45  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  53:60  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\products\thermaskirt-h2o\page.tsx
+  53:261  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\specification-support\design-service\page.tsx
+  44:396  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\specification-support\framework-access\page.tsx
+  41:209  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  41:220  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  44:130  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  44:139  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  55:97   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  66:126  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  66:131  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\specification-support\shdf-documentation\page.tsx
+  44:297  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  44:308  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  59:73   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\specification-support\specification-wording\page.tsx
+   41:146  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   41:168  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  110:213  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  110:254  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\technical-data\bsria-test-results\page.tsx
+  41:203  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  44:371  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\technical-data\energy-house-2-report\page.tsx
+  52:166  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  52:189  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\technical-data\environmental-data\page.tsx
+  44:132  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  57:215  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\technical-data\future-homes-standard\page.tsx
+  41:107  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  41:125  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\technical-data\heat-loss-methodology\page.tsx
+  57:77  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  57:94  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\technical-data\low-temperature-performance\page.tsx
+  41:45   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  44:355  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  57:56   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  57:70   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  57:317  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  57:324  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  57:472  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\technical-data\output-tables\page.tsx
+  44:345  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\technical-data\part-l-compliance\page.tsx
+  44:113  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  44:142  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  44:148  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  44:183  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  44:436  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\technical-data\pas-2035-pas-2030\page.tsx
+  44:472  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  44:496  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  55:118  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  55:124  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  55:130  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\technical-data\radiant-heat-science\page.tsx
+  41:49   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  41:60   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  44:117  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  44:143  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  57:109  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  57:127  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\specifiers\technical-data\water-treatment-protocol\page.tsx
+  44:556  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\add2rad\flow-temperature-calculator\page.tsx
+   2:8    warning  'FAQText' is defined but never used                              @typescript-eslint/no-unused-vars
+  84:100  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  84:110  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  84:148  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\add2rad\heat-pump-installer-guide\page.tsx
+    2:8    warning  'FAQText' is defined but never used                              @typescript-eslint/no-unused-vars
+   59:73   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   59:75   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   63:122  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  119:110  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\add2rad\quoting-for-add2rad\page.tsx
+   2:8    warning  'FAQText' is defined but never used                              @typescript-eslint/no-unused-vars
+   3:8    warning  'CTABanner' is defined but never used                            @typescript-eslint/no-unused-vars
+  55:104  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\add2rad\shdf-and-social-housing\page.tsx
+  2:8  warning  'FAQText' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\add2rad\supplier-and-oem-enquiries\page.tsx
+   2:8    warning  'FAQText' is defined but never used                              @typescript-eslint/no-unused-vars
+   3:8    warning  'CTABanner' is defined but never used                            @typescript-eslint/no-unused-vars
+  55:101  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  55:114  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\add2rad\the-method\page.tsx
+   2:8    warning  'FAQText' is defined but never used                              @typescript-eslint/no-unused-vars
+  51:113  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  51:121  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  67:83   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  67:93   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  95:89   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  99:209  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\installer-programme\benefits\page.tsx
+  2:8  warning  'FAQText' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\installer-programme\lead-referral\page.tsx
+    3:8    warning  'CTABanner' is defined but never used                            @typescript-eslint/no-unused-vars
+   49:57   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   49:92   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   49:95   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+   49:109  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+   63:162  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   63:174  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  105:33   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  105:207  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  105:311  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\installer-programme\register\page.tsx
+  3:8  warning  'CTABanner' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\installer-programme\training\page.tsx
+    2:8    warning  'FAQText' is defined but never used                              @typescript-eslint/no-unused-vars
+    3:8    warning  'CTABanner' is defined but never used                            @typescript-eslint/no-unused-vars
+   48:65   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   48:74   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   77:91   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   77:112  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  120:183  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  124:146  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  124:148  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\merchants\find-a-branch\page.tsx
+  98:174  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\merchants\marketing-materials\page.tsx
+  64:29  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\merchants\page.tsx
+  50:44  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\products\accessories-and-components\page.tsx
+  2:8  warning  'FAQText' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\products\add2rad\page.tsx
+  2:8  warning  'FAQText' is defined but never used    @typescript-eslint/no-unused-vars
+  3:8  warning  'CTABanner' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\products\easyclean\page.tsx
+  2:8  warning  'FAQText' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\products\thermacurve\page.tsx
+  2:8  warning  'FAQText' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\products\thermaskirt-e\page.tsx
+  2:8  warning  'FAQText' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\products\thermaskirt-h2o\page.tsx
+  2:8  warning  'FAQText' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\resources\image-gallery\page.tsx
+  53:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  59:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  65:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  71:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  84:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  90:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  96:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\app\(hubs)\trade\resources\video-library\page.tsx
+  46:33  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  63:33  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  80:33  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\ethan\OneDrive\Desktop\DH Website\discreteheat\fix-eslint.js
+  1:12  error    A `require()` style import is forbidden      @typescript-eslint/no-require-imports
+  2:22  error    A `require()` style import is forbidden      @typescript-eslint/no-require-imports
+  3:7   warning  'path' is assigned a value but never used    @typescript-eslint/no-unused-vars
+  3:14  error    A `require()` style import is forbidden      @typescript-eslint/no-require-imports
+  7:11  warning  'output' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Ô£û 129 problems (96 errors, 33 warnings)
+

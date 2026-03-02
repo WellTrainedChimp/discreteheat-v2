@@ -38,7 +38,7 @@ export default function SpecificationWordingPage() {
                         <article>
                             <h2 className="text-3xl font-light text-dh-dark mb-6 tracking-tight">Protecting the Specification</h2>
                             <p className="text-xl font-light text-dh-dark mb-6 leading-relaxed">
-                                A loosely written specification allows principal contractors to value-engineer critical M&E components using the 'or equal and approved' loophole. If a low-temperature emitter is substituted for standard radiators, the heat pump will stall, the SAP score will fail, and the operational carbon will spike.
+                                A loosely written specification allows principal contractors to value-engineer critical M&E components using the &apos;or equal and approved&apos; loophole. If a low-temperature emitter is substituted for standard radiators, the heat pump will stall, the SAP score will fail, and the operational carbon will spike.
                             </p>
                             <p className="text-lg text-dh-grey leading-relaxed mb-12">
                                 For robust protection, we strongly advise consultants to prescribe exact thermal output tolerances, maximum flow temperatures, and mandate BS EN 442-1 verified independent test data. Below are the standard Uniclass 2015 and CAWS codes, along with drop-down tender clauses for our primary product lines.
@@ -107,7 +107,7 @@ export default function SpecificationWordingPage() {
                                     </summary>
                                     <div className="p-6 text-dh-grey text-sm bg-white border-t border-dh-grey-light">
                                         <p className="mb-4"><strong>Description:</strong> Low Surface Temperature (LST) anti-ligature perimeter radiant heating panel.</p>
-                                        <p className="mb-4"><strong>Clinical Compliance:</strong> System must not exceed a maximum surface temperature of 43°C in accordance with NHS Estates Health Guidance Note \'Safe Hot Water and Surface Temperatures\' (DN4).</p>
+                                        <p className="mb-4"><strong>Clinical Compliance:</strong> System must not exceed a maximum surface temperature of 43°C in accordance with NHS Estates Health Guidance Note \&apos;Safe Hot Water and Surface Temperatures\&apos; (DN4).</p>
                                         <p className="mb-4"><strong>Design:</strong> Profile must feature a sealed top hygiene capping forming a minimum 5mm radius curve to prevent dust accumulation. The top capping and bottom seal must be continuous and feature an anti-microbial coating.</p>
                                         <p className="mb-4"><strong>Ligature & Tamper Resistance:</strong> All fixings must be completely concealed. Profile must withstand severe impact exceeding standard panel radiator limits and resist ligature attachment from the top edge and expansion joints.</p>
                                         <p className="mt-6 text-dh-red font-semibold">Copy text to clipboard component would go here</p>

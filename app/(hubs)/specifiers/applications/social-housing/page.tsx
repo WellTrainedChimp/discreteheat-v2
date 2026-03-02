@@ -63,7 +63,7 @@ export default function SocialHousingPage() {
 
                         <article>
                             <span className="block text-[13px] font-semibold uppercase tracking-[0.08em] text-dh-red mb-4">Compliance</span>
-                            <h3 className="text-2xl font-light text-dh-dark mb-6 tracking-tight">Combating Damp and Mould (Awaab's Law)</h3>
+                            <h3 className="text-2xl font-light text-dh-dark mb-6 tracking-tight">Combating Damp and Mould (Awaab&apos;s Law)</h3>
                             <p className="text-lg text-dh-grey leading-relaxed mb-6">
                                 ThermaSkirt is an excellent intervention against condensation, damp, and mould. By projecting radiant heat from the lower perimeter upwards, it actively warms the walls at the skirting level—the precise location where cold bridging, condensation, and black mould tend to accumulate in older properties.
                             </p>

@@ -38,10 +38,10 @@ export default function FrameworkAccessPage() {
                         <article>
                             <h2 className="text-3xl font-light text-dh-dark mb-6 tracking-tight">De-risking the Supply Chain</h2>
                             <p className="text-xl font-light text-dh-dark mb-6 leading-relaxed">
-                                For local authorities, NHS Trusts, and Registered Social Landlords (RSLs), specifying an innovative product often triggers exhaustive, time-consuming tender exercises to prove 'Best Value' and compliance.
+                                For local authorities, NHS Trusts, and Registered Social Landlords (RSLs), specifying an innovative product often triggers exhaustive, time-consuming tender exercises to prove &apos;Best Value&apos; and compliance.
                             </p>
                             <p className="text-lg text-dh-grey leading-relaxed mb-12">
-                                By engaging through established, fully-audited procurement frameworks, public bodies can rapidly 'call off' ThermaSkirt for decarbonisation projects, healthcare refurbishments, and new-build housing estates. We have successfully passed the rigorous financial, environmental, and technical vetting required to feature on these approved supply chains.
+                                By engaging through established, fully-audited procurement frameworks, public bodies can rapidly &apos;call off&apos; ThermaSkirt for decarbonisation projects, healthcare refurbishments, and new-build housing estates. We have successfully passed the rigorous financial, environmental, and technical vetting required to feature on these approved supply chains.
                             </p>
                         </article>
 
@@ -52,7 +52,7 @@ export default function FrameworkAccessPage() {
                                     <div className="mb-4 text-dh-red font-bold text-xl tracking-tight uppercase">Fusion 21</div>
                                     <h3 className="text-lg font-semibold text-dh-dark mb-2">Decarbonisation & Heating Frameworks</h3>
                                     <p className="text-dh-grey text-sm mb-4 flex-grow">
-                                        ThermaSkirt is an approved product supplier on Fusion21\'s prominent national frameworks, frequently utilized for large-scale Social Housing Decarbonisation Fund (SHDF) delivery and public building retrofits.
+                                        ThermaSkirt is an approved product supplier on Fusion21\&apos;s prominent national frameworks, frequently utilized for large-scale Social Housing Decarbonisation Fund (SHDF) delivery and public building retrofits.
                                     </p>
                                 </div>
                                 <div className="p-8 bg-dh-grey-light rounded-2xl border border-dh-grey-light/50 flex flex-col items-start">
@@ -63,7 +63,7 @@ export default function FrameworkAccessPage() {
                                     </p>
                                 </div>
                             </div>
-                            <p className="text-sm text-dh-grey italic">Note: Framework status is continuously updated as new 'lots' are released. Please contact us for the most current active Direct Award or Mini-Competition routes, including Procure Partnerships and NHS Shared Business Services (SBS).</p>
+                            <p className="text-sm text-dh-grey italic">Note: Framework status is continuously updated as new &apos;lots&apos; are released. Please contact us for the most current active Direct Award or Mini-Competition routes, including Procure Partnerships and NHS Shared Business Services (SBS).</p>
                         </article>
 
                     </div>
