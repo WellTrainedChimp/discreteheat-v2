@@ -30,12 +30,12 @@ export default function SpecifiersHub() {
                     heading="Product Range"
                     description="Five product lines covering wet, electric, healthcare, and retrofit supplementary applications. All profiles are 20mm deep, powder-coated aluminium, and manufactured from approximately 75% recycled content. CE marked to BS EN 442-1."
                     tiles={[
-                        { title: 'ThermaSkirt H₂O', description: 'Hydronic radiant skirting. BM2 (114mm) and BM3 (170mm) profiles. 35–75°C operating range.', href: '/products/thermaskirt-h2o' },
-                        { title: 'ThermaSkirt-e', description: 'Direct electric infrared. Self-regulating element. No transformers or wiring centres. BS 7671 compliant.', href: '/products/thermaskirt-e' },
-                        { title: 'EasyClean LST', description: 'Sealed hygiene capping over BM2/BM3. Anti-ligature, anti-tamper. Anti-microbial coating option.', href: '/products/easyclean' },
-                        { title: 'ThermaCurve', description: 'Electric infrared coving at ceiling/wall junction. For spaces where skirting installation is not feasible.', href: '/products/thermacurve' },
-                        { title: 'Add2Rad', description: 'Retrofit emitter supplement. Connects in series to existing radiator tails. Up to 90W/m at 45°C flow.', href: '/products/add2rad' },
-                        { title: 'Kitchen Plinth', description: '115mm colour-matched plinth profile for beneath kitchen units. Hydronic connection.', href: '/products/kitchen-plinth' },
+                        { title: 'ThermaSkirt H₂O', description: 'Hydronic radiant skirting. BM2 (114mm) and BM3 (170mm) profiles. 35–75°C operating range.', href: '/specifiers/products/thermaskirt-h2o' },
+                        { title: 'ThermaSkirt-e', description: 'Direct electric infrared. Self-regulating element. No transformers or wiring centres. BS 7671 compliant.', href: '/specifiers/products/thermaskirt-e' },
+                        { title: 'EasyClean LST', description: 'Sealed hygiene capping over BM2/BM3. Anti-ligature, anti-tamper. Anti-microbial coating option.', href: '/specifiers/products/easyclean' },
+                        { title: 'ThermaCurve', description: 'Electric infrared coving at ceiling/wall junction. For spaces where skirting installation is not feasible.', href: '/specifiers/products/thermacurve' },
+                        { title: 'Add2Rad', description: 'Retrofit emitter supplement. Connects in series to existing radiator tails. Up to 90W/m at 45°C flow.', href: '/specifiers/products/add2rad' },
+                        { title: 'Kitchen Plinth', description: '115mm colour-matched plinth profile for beneath kitchen units. Hydronic connection.', href: '/specifiers/products/kitchen-plinth' },
                     ]}
                 />
 

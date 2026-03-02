@@ -29,7 +29,7 @@ const tradeProductData = [
     {
         title: "Tools & Accessories",
         description: "Order push-fit connectors, corner shrouds, mounting brackets, and specialized ThermaSkirt chop saw blades.",
-        href: "/trade/products/accessories",
+        href: "/trade/products/accessories-and-components",
         image: "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&q=80&w=1080"
     }
 ];
