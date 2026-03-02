@@ -33,7 +33,7 @@ export default function TradeHero() {
 
                 {/* H1 Heading - Preset C Typography (Direct/Bold) */}
                 <h1 className="text-[36px] md:text-[56px] leading-[1.05] text-white font-bold tracking-tight mb-6 hero-el opacity-100">
-                    Install smarter, earn more. <span className="font-normal text-white/50 block mt-2 text-[30px] md:text-[42px]">Fit in half the time of UFH.</span>
+                    Install smarter. Earn more. <span className="font-normal text-white/50 block mt-2 text-[30px] md:text-[42px]">Fit in half the time of UFH.</span>
                 </h1>
 
                 <p className="text-[17px] text-white/80 max-w-xl mb-10 hero-el opacity-100 leading-relaxed">

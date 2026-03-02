@@ -27,20 +27,20 @@ export default function SpecifierHero() {
 
                 {/* H1 Heading - Preset B Typography (Heavier) */}
                 <h1 className="text-[36px] md:text-[52px] leading-[1.1] text-white font-semibold tracking-tight mb-6 hero-el opacity-100">
-                    Specified in over 85,000 installations. <span className="font-normal text-white/50 block mt-2">BSRIA tested to EN442-1.</span>
+                    Specified in over 85,000 installations. <span className="font-normal text-white/50 block mt-2">BSRIA tested to BS EN 442-1.</span>
                 </h1>
 
                 <p className="text-lg text-white/70 max-w-xl mb-12 hero-el opacity-100 font-light leading-relaxed">
-                    Access comprehensive technical data, output tables, and NBS specification clauses for the ThermaSkirt radiant heating system.
+                    A radiant skirting-level emitter system independently validated by BSRIA and the University of Salford Energy House 2.0. Designed for low-temperature heat pump circuits from 35°C. NBS clauses, output data, and full specification support available.
                 </p>
 
                 {/* CTAs */}
                 <div className="flex flex-wrap gap-4 mb-16 hero-el opacity-100">
                     <Link href="/specifiers/specification-support/request-a-cpd" className="hp-btn-primary py-3.5 px-6 text-[15px] font-medium tracking-wide">
-                        Speak to our Spec Team
+                        Speak to our Specification Team
                     </Link>
-                    <Link href="/specifiers/specification-support/nbs-clauses" className="hp-btn-secondary py-3.5 px-6 text-[15px] font-medium tracking-wide border-white/30 hover:border-white/60">
-                        Download Specifiers Pack
+                    <Link href="/specifiers/specification-support/Specifier Pack" className="hp-btn-secondary py-3.5 px-6 text-[15px] font-medium tracking-wide border-white/30 hover:border-white/60">
+                        Download Specifier Pack
                     </Link>
                 </div>
             </div>
