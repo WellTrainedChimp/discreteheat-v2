@@ -5,7 +5,6 @@ import CTABanner from '@/components/blocks/CTABanner';
 import TestimonialStrip from '@/components/blocks/TestimonialStrip';
 import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 import NavbarMorph from '@/components/client/NavbarMorph';
-import Link from 'next/link';
 
 export const metadata = {
     title: 'Biomass Boiler Skirting Board Heating | ThermaSkirt',

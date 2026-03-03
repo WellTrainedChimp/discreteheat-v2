@@ -6,7 +6,6 @@ import TestimonialStrip from '@/components/blocks/TestimonialStrip';
 import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 import NavbarMorph from '@/components/client/NavbarMorph';
 import WistiaPlayer from '@/components/client/WistiaPlayer';
-import Link from 'next/link';
 
 export const metadata = {
     title: 'Boiler Compatible Skirting Board Heating | ThermaSkirt',
@@ -106,7 +105,7 @@ export default function BoilerPage() {
                         <p className="text-lg text-dh-grey leading-relaxed mb-6">
                             A 1970s bungalow renovated into a full two-storey family home. The owners chose underfloor heating on the ground floor for their open-plan kitchen-diner, and ThermaSkirt upstairs for all four bedrooms and the landing. Each bedroom has individual room controllers with colour-coded skirting profiles. The homeowner specifically chose ThermaSkirt for clean lines, flexible furniture placement, and easy cleaning—no radiators gathering dust on the walls.
                         </p>
-                        <WistiaPlayer mediaId="888x825p0o" aspect={16/9} />
+                        <WistiaPlayer mediaId="888x825p0o" aspect={16 / 9} />
                         <p className="text-sm text-dh-grey mt-4">
                             The system currently runs from a gas boiler with plans to upgrade to a heat pump in the future—a transition ThermaSkirt supports without any modification.
                         </p>

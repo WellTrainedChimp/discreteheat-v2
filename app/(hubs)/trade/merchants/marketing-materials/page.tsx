@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import SubHubHero from '@/components/server/SubHubHero';
 import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 
@@ -61,7 +62,7 @@ export default function MarketingMaterialsPage() {
                         </div>
                         <div className="relative aspect-square md:aspect-auto md:h-[500px] bg-dh-grey-light rounded-2xl overflow-hidden shadow-lg border-2 border-black/5">
                             {/* Visual placeholder for POS display image */}
-                            <img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&q=80&w=800" alt="Trade Display" className="absolute inset-0 w-full h-full object-cover" />
+                            <Image src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&q=80&w=800" alt="Trade Display" fill className="object-cover" />
                             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                                 <span className="text-white font-bold opacity-90">Standard Counter Display (W: 400mm x H: 650mm)</span>
                             </div>

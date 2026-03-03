@@ -55,6 +55,7 @@ export default function WistiaPlayer({ mediaId, aspect = 1.7777777777777777 }: W
               Once the script loads, it upgrades this custom element into a full video player.
               Using suppressHydrationWarning because the web component renders client-side only.
             */}
+            {/* @ts-expect-error Custom web component not recognized by React 18/19 JSX namespace */}
             <wistia-player
                 media-id={mediaId}
                 aspect={String(aspect)}
@@ -64,18 +65,3 @@ export default function WistiaPlayer({ mediaId, aspect = 1.7777777777777777 }: W
     );
 }
 
-// ── TypeScript: declare the Wistia web component so JSX doesn't complain ──
-declare global {
-    // eslint-disable-next-line @typescript-eslint/no-namespace
-    namespace JSX {
-        interface IntrinsicElements {
-            'wistia-player': React.DetailedHTMLProps<
-                React.HTMLAttributes<HTMLElement> & {
-                    'media-id'?: string;
-                    aspect?: string;
-                },
-                HTMLElement
-            >;
-        }
-    }
-}
