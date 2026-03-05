@@ -15,11 +15,11 @@ export default function ByProjectSubHub() {
         { title: 'Retrofit', description: 'Make your existing home heat-pump ready without tearing up floors.', href: '/homeowners/by-project/retrofit', badge: 'Most Popular' },
         { title: 'Extension', description: 'Heat your new space without extending your ductwork or lifting floorboards.', href: '/homeowners/by-project/extension' },
         { title: 'Renovation', description: 'Upgrade your heating seamlessly while refreshing your interiors.', href: '/homeowners/by-project/renovation' },
-        { title: 'New Build & Self Build', description: 'Specify from day one for a cleaner, smarter, and faster build.', href: '/homeowners/by-project/new-build-self-build' },
+        { title: 'New Build & Self Build', description: 'Specify from day one for a cleaner, smarter, and faster build.', href: '/homeowners/by-project/new-build' },
         { title: 'Loft Conversion', description: 'Zero headroom loss — heating that follows the walls perfectly.', href: '/homeowners/by-project/loft-conversion' },
         { title: 'Basement Conversion', description: 'Comfortable, dry radiant heat for subterranean spaces.', href: '/homeowners/by-project/basement-conversion' },
         { title: 'Listed Building', description: 'Heritage-sensitive heating that satisfies conservation officers.', href: '/homeowners/by-project/listed-building' },
-        { title: 'Garden Room', description: 'Fast, electric-only or wet system heating for outdoor spaces.', href: '/homeowners/by-project/garden-room' },
+        { title: 'Garden Room', description: 'Fast, electric-only or wet system heating for outdoor spaces.', href: '/homeowners/by-room/garden-room' },
     ];
 
     return (

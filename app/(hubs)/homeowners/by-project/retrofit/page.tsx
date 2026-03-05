@@ -106,8 +106,8 @@ export default function RetrofitPage() {
                     description="Get an itemised quote for a clean, fast ThermaSkirt retrofit."
                     primaryCTA="Start My Quote"
                     primaryCTALink="/homeowners/get-a-quote"
-                    secondaryCTA="Read the SHDF Guide"
-                    secondaryCTALink="/learn/shdf-guide"
+                    secondaryCTA="See the Cost Guide"
+                    secondaryCTALink="/homeowners/cost-guide"
                 />
             </main>
         </>

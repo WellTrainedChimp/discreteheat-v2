@@ -45,7 +45,7 @@ const data = [
         id: "lst",
         title: "EasyClean LST",
         description: "Low Surface Temperature profile designed exclusively for healthcare, care homes, and social housing. Anti-ligature and easily washable.",
-        href: "/specifiers/products/easyclean-lst",
+        href: "/homeowners/products/easyclean",
         image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1080"
     },
     {
