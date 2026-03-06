@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Independent test report from the University of Salford comparing ThermaSkirt radiant heating efficiency and comfort against standard steel panel radiators.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/technical-data/energy-house-2-report/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=269a8897-7f6d-48dd-a7af-135fa33458c2', width: 1200, height: 630, alt: 'Energy House 2.0 Report | Technical Data | ThermaSkirt' }],
+    },
 };
 
 const otherData = [
@@ -29,7 +32,7 @@ export default function EnergyHouseReportPage() {
                     titleHighlight="Testing."
                     description="The University of Salford\'s Energy House is a world-leading research facility. We subjected ThermaSkirt to rigorous, controlled testing against traditional steel panel radiators."
                     primaryCta={{ text: "Download Full Report", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-energy-house.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=269a8897-7f6d-48dd-a7af-135fa33458c2"
                     imageAlt="The Energy House 2.0 testing chamber at the University of Salford"
                 />
 

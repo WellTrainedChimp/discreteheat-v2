@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Technical guidance for M&E engineers on modelling ThermaSkirt for Document L building regulation compliance and SAP calculations.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/technical-data/part-l-compliance/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=d82cc90b-4a7b-47f7-9ad4-e8dadff2f71e', width: 1200, height: 630, alt: 'Part L Compliance & SAP | ThermaSkirt' }],
+    },
 };
 
 const otherData = [
@@ -29,7 +32,7 @@ export default function PartLCompliancePage() {
                     titleHighlight="SAP calculations."
                     description="Meeting Part L of the Building Regulations consistently requires offsetting thermal transmission with highly efficient technology. ThermaSkirt offers a mechanical CoP lever within the SAP environment."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-part-l.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=d82cc90b-4a7b-47f7-9ad4-e8dadff2f71e"
                     imageAlt="A thermal performance graph overlaid on a blueprint of a modern residential property"
                 />
 

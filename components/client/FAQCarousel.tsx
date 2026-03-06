@@ -6,14 +6,14 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import Image from 'next/image';
 
-// Placeholder video data
 const videos = [
-    { id: 1, title: 'Does it work with existing radiators?', thumb: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=400&h=711' },
-    { id: 2, title: 'How does it compare to UFH?', thumb: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=400&h=711' },
-    { id: 3, title: 'Will my furniture block the heat?', thumb: 'https://images.unsplash.com/photo-1618220179428-22790b46a0eb?auto=format&fit=crop&q=80&w=400&h=711' },
-    { id: 4, title: 'Can I install it myself?', thumb: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=400&h=711' },
-    { id: 5, title: 'Is it safe for children?', thumb: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80&w=400&h=711' },
+    { id: 1, title: 'Does it work with existing radiators?', thumb: 'https://www.discreteheat.com/MediaHandler.ashx?id=49bf72f5-87e9-4fd4-843c-b01ac20138d5' },
+    { id: 2, title: 'How does it compare to UFH?', thumb: 'https://www.discreteheat.com/MediaHandler.ashx?id=16027df0-9209-4f6f-b0e6-87a7e41c8875' },
+    { id: 3, title: 'Will my furniture block the heat?', thumb: 'https://www.discreteheat.com/MediaHandler.ashx?id=ff62cc90-b847-4caf-993d-e4d3d56016bb' },
+    { id: 4, title: 'Can I install it myself?', thumb: 'https://www.discreteheat.com/MediaHandler.ashx?id=d935984b-a5c8-431f-af3f-eeb2a19f4b66' },
+    { id: 5, title: 'Is it safe for children?', thumb: 'https://www.discreteheat.com/MediaHandler.ashx?id=32e0462c-c8f0-4f1c-9904-7127a20b3bf1' },
 ];
 
 export default function FAQCarousel() {
@@ -47,8 +47,7 @@ export default function FAQCarousel() {
                         {videos.map((video) => (
                             <SwiperSlide key={video.id} className="!w-[260px] md:!w-[300px]">
                                 <div className="relative aspect-[9/16] rounded-[16px] overflow-hidden group shadow-xl">
-                                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                                    <img src={video.thumb} alt={video.title} className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                                    <Image src={video.thumb} alt={video.title} fill sizes="(max-width: 768px) 260px, 300px" className="object-cover transition-transform duration-700 group-hover:scale-105" />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
                                     {/* Play Button */}

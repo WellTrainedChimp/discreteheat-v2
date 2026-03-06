@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Renovating an older property? ThermaSkirt provides modern, efficient radiant heating by connecting to your existing pipes—avoiding the immense cost of digging up original floors.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-project/renovation/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=cc256c2b-50de-47b9-98ac-1133b0a15114', width: 1200, height: 630, alt: 'Whole House Renovation Heating | ThermaSkirt' }],
+    },
 };
 
 export default function RenovationPage() {
@@ -23,7 +26,7 @@ export default function RenovationPage() {
                     titleHighlight="the destruction."
                     description="Renovating a period property is about preserving character while improving energy efficiency. Replacing ugly, inefficient steel radiators with ThermaSkirt provides invisible radiant warmth without tearing up original Victorian floorboards to lay underfloor heating screed."
                     primaryCta={{ text: "Get a Renovation Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-renovation.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=cc256c2b-50de-47b9-98ac-1133b0a15114"
                     imageAlt="A stunningly renovated period living room with a classic Deco ThermaSkirt profile"
                 />
 

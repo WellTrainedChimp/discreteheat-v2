@@ -7,7 +7,10 @@ export const metadata = {
     description: 'Explore how ThermaSkirt radiant skirting board heating transforms different rooms in your home—from living rooms to kitchens and home offices.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-room/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=2a3a5535-6119-4b26-b66f-263eecc7eb5a', width: 1200, height: 630, alt: 'Skirting Board Heating by Room | ThermaSkirt' }],
+    },
 };
 
 export default function ByRoomSubHub() {

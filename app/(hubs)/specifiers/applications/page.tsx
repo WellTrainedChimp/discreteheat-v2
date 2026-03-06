@@ -7,7 +7,10 @@ export const metadata = {
     description: 'Explore how ThermaSkirt is specified across healthcare, social housing, education, new build residential, and listed buildings. Independent performance data and compliance notes.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/applications/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=988cff79-37a3-45fa-9a3d-aef77c978702', width: 1200, height: 630, alt: 'ThermaSkirt Sector Applications | Specifiers' }],
+    },
 };
 
 export default function ApplicationsSubHub() {

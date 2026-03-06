@@ -4,6 +4,9 @@ import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 export const metadata = {
     title: 'Supplier & OEM Enquiries | DiscreteHeat Trade',
     description: 'Partnership information for heat pump manufacturers, national merchants, and mass-market specifiers adopting the Add2Rad system.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=4998bad3-94eb-4715-8c47-7ae30f4fb3eb', width: 1200, height: 630, alt: 'Supplier & OEM Enquiries | DiscreteHeat Trade' }],
+    },
 };
 
 const internalLinks = [
@@ -11,13 +14,13 @@ const internalLinks = [
         title: "The Add2Rad Method",
         description: "How to use ThermaSkirt to reduce flow temperatures without changing pipework.",
         href: "/trade/add2rad/the-method",
-        image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=78462530-72ea-4156-bae5-ed617dd9d65f",
     },
     {
         title: "Trade Portal",
         description: "Login for existing registered merchants and distributors.",
         href: "/trade/merchants/open-a-trade-account",
-        image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=94a221fb-c3e2-4ea5-8e49-ab0b223dba6b",
     },
 ];
 
@@ -28,7 +31,7 @@ export default function SupplierOEMEnquiriesPage() {
                 title="Supplier & OEM Enquiries"
                 badge="National Partnerships"
                 description="DiscreteHeat works directly with the UK's leading heat pump manufacturers and national plumber's merchants to bundle the Add2Rad solution, removing the primary barrier to heat pump adoption."
-                imageSrc="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=4998bad3-94eb-4715-8c47-7ae30f4fb3eb"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">

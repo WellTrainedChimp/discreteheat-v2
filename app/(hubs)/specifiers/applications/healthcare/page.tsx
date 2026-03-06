@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Anti-ligature, low surface temperature heating for mental health, NHS wards, and clinical spaces. EasyClean validated by NHS.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/applications/healthcare/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=0c3ebdd3-f2d0-4fdb-a638-72dc12805e32', width: 1200, height: 630, alt: 'Healthcare & Clinical Heating | Specifiers' }],
+    },
 };
 
 const otherSectors = [
@@ -30,7 +33,7 @@ export default function HealthcarePage() {
                     titleHighlight="NHS-approved."
                     description="The EasyClean LST profile provides safe, low surface temperature radiant heat designed specifically for mental health wards, care homes, and clinical environments requiring rigorous infection control."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/specifier-healthcare.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=0c3ebdd3-f2d0-4fdb-a638-72dc12805e32"
                     imageAlt="Clean, secure hospital corridor demonstrating the flush EasyClean LST heating profile"
                 />
 

@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Heat the highest room in the house effortlessly. ThermaSkirt fits neatly around the awkward eaves of a loft conversion, freeing up the limited wall space for your bed and wardrobes.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-project/loft-conversion/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=c25f2559-4bd3-4b08-a21a-d7b11416f4eb', width: 1200, height: 630, alt: 'Loft Conversion Heating | ThermaSkirt' }],
+    },
 };
 
 export default function LoftConversionPage() {
@@ -23,7 +26,7 @@ export default function LoftConversionPage() {
                     titleHighlight="claim the walls."
                     description="Loft conversions are constrained by severely sloping roofs and incredibly tight eaves. Standard radiators dictate precisely where you put the bed, while UFH adds dangerous weight to the ceiling joists. ThermaSkirt seamlessly traces the lowest eaves, providing invisible radiant heat."
                     primaryCta={{ text: "Get a Loft Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-loft.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=c25f2559-4bd3-4b08-a21a-d7b11416f4eb"
                     imageAlt="A bright bedroom loft conversion with ThermaSkirt mounted to the eaves"
                 />
 

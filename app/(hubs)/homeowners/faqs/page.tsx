@@ -7,7 +7,10 @@ export const metadata = {
     description: 'Everything you need to know about skirting board heating. Answers regarding heat output, furniture placement, flooring installation, and system compatibility.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/faqs/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=fc6aa413-19f0-4928-84f5-257550495352', width: 1200, height: 630, alt: 'Frequently Asked Questions | ThermaSkirt Heating' }],
+    },
 };
 
 export default function FAQsPage() {
@@ -21,7 +24,7 @@ export default function FAQsPage() {
                     titleHighlight="answered."
                     description="Replacing traditional radiators with skirting board heating represents a fundamental shift in how your home operates. It's natural to have technical questions about heat output, installation sequencing, and furniture placement. Find your answers below."
                     primaryCta={{ text: "Get an Itemised Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-faqs.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=fc6aa413-19f0-4928-84f5-257550495352"
                     imageAlt="A homeowner reading a ThermaSkirt technical brochure"
                 />
 

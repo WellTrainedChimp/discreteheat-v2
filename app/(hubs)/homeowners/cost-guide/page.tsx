@@ -8,7 +8,10 @@ export const metadata = {
     description: 'A comprehensive guide to ThermaSkirt costs, including hardware prices, installation labor, and running cost comparisons against underfloor heating and radiators.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/cost-guide/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=d935984b-a5c8-431f-af3f-eeb2a19f4b66', width: 1200, height: 630, alt: 'How Much Does Skirting Board Heating Cost? | Price Guide' }],
+    },
 };
 
 export default function CostGuidePage() {
@@ -22,7 +25,7 @@ export default function CostGuidePage() {
                     titleHighlight="exceptional value."
                     description="Understanding the true cost of a new heating system means looking beyond the hardware. You must factor in installation time, disruption, and long-term running costs. ThermaSkirt offers premium radiant heating at a fraction of the fully installed cost of underfloor heating."
                     primaryCta={{ text: "Get an Exact Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-cost-guide.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=d935984b-a5c8-431f-af3f-eeb2a19f4b66"
                     imageAlt="A homeowner reviewing architectural plans for a ThermaSkirt installation"
                 />
 

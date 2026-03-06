@@ -8,7 +8,10 @@ export const metadata = {
     description: 'Deciding whether to fit ThermaSkirt yourself or hire a professional? Read our guide on the plumbing and joinery skills required for a successful DIY installation.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/diy-or-professional/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1', width: 1200, height: 630, alt: 'DIY or Professional Installer? | ThermaSkirt Heating' }],
+    },
 };
 
 export default function DIYOrProPage() {
@@ -22,7 +25,7 @@ export default function DIYOrProPage() {
                     titleHighlight="combined."
                     description="ThermaSkirt is engineered specifically to bridge the gap between plumbing and second-fix joinery. To achieve a flawless finish, the installer must be competent in both disciplines. Is it a DIY project, or should you hire a professional? Let's break down the requirements."
                     primaryCta={{ text: "Find a Professional", href: "/homeowners/find-an-installer" }}
-                    imageSrc="/assets/images/homeowner-diy.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1"
                     imageAlt="A close-up of a ThermaSkirt profile being cut precisely with an aluminium saw blade"
                 />
 

@@ -5,6 +5,9 @@ import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 export const metadata = {
     title: 'Heat Pump Installer Guide | DiscreteHeat Trade',
     description: 'Technical plumbing instructions, valve configurations, and pipework diagrams for installing the Add2Rad series module.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=a9380b91-7438-4ba0-b0b6-a365a4bcd925', width: 1200, height: 630, alt: 'Heat Pump Installer Guide | DiscreteHeat Trade' }],
+    },
 };
 
 const internalLinks = [
@@ -12,19 +15,19 @@ const internalLinks = [
         title: "The Add2Rad Method",
         description: "How to use ThermaSkirt to reduce flow temperatures without changing pipework.",
         href: "/trade/add2rad/the-method",
-        image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=78462530-72ea-4156-bae5-ed617dd9d65f",
     },
     {
         title: "Flow Temp Calculator",
         description: "Calculate expected flow temperatures before and after adding Add2Rad.",
         href: "/trade/add2rad/flow-temperature-calculator",
-        image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=16027df0-9209-4f6f-b0e6-87a7e41c8875",
     },
     {
         title: "Quoting for Add2Rad",
         description: "Submit room dimensions via the portal for a fully quantified component estimate.",
         href: "/trade/add2rad/quoting-for-add2rad",
-        image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=c699edc3-f10e-40fc-89ba-c936d1a1f75d",
     }
 ];
 
@@ -35,7 +38,7 @@ export default function HeatPumpInstallerGuidePage() {
                 title="Installer Guide"
                 badge="Hydronic Configuration"
                 description="Technical documentation for configuring the Add2Rad bypass valve, setting the return temperatures, and balancing the system when running skirting and radiators in series."
-                imageSrc="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=a9380b91-7438-4ba0-b0b6-a365a4bcd925"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">

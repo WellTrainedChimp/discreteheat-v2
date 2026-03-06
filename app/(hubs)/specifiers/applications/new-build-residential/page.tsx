@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Future Homes Standard compliant heating for residential developers. Speed up site programme by replacing 450+ radiator SKUs with 2 ThermaSkirt profiles.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/applications/new-build-residential/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=5ab1cb76-1c03-4972-8e09-f4c860af75a2', width: 1200, height: 630, alt: 'New Build Residential Heating | Specifiers' }],
+    },
 };
 
 const otherSectors = [
@@ -30,7 +33,7 @@ export default function NewBuildResidentialPage() {
                     titleHighlight="Future Homes Standard."
                     description="Developers nationwide are adopting ThermaSkirt to meet Part L and Future Homes Standard regulations without sacrificing valuable floor space to oversized heat pump radiators."
                     primaryCta={{ text: "Speak to Spec Team", href: "/about/contact" }}
-                    imageSrc="/assets/images/specifier-new-build.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=5ab1cb76-1c03-4972-8e09-f4c860af75a2"
                     imageAlt="ThermaSkirt BM2 profile installed cleanly in a modern new build property"
                 />
 

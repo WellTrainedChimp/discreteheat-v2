@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Supplemental skirting heating to boost undersized radiators. An elegant retrofit solution for transitioning homes to low-temperature heat pumps without ripping out existing systems.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/products/add2rad/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=9567dbe1-3e38-4b02-abff-ef9cd35115ef', width: 1200, height: 630, alt: 'Add2Rad Supplemental Heating | Specifier Products' }],
+    },
 };
 
 const otherProducts = [
@@ -30,7 +33,7 @@ export default function Add2RadPage() {
                     titleHighlight="low-flow boost."
                     description="When retrofitting a heat pump, replacing every radiator with massive Type 22 or Type 33s is disruptive and consumes floor space. Add2Rad allows you to retain the existing radiator and supplement the lost heat output directly from the skirting."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/product-add2rad.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=9567dbe1-3e38-4b02-abff-ef9cd35115ef"
                     imageAlt="ThermaSkirt Add2Rad plumbed in series directly from the tails of an existing panel radiator"
                 />
 

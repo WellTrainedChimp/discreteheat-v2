@@ -13,7 +13,10 @@ export const metadata = {
     description: 'The perfect emitter for air source heat pumps. ThermaSkirt provides the large surface area needed for low flow temperatures (35–45°C) without the disruption of underfloor heating or oversized radiators. BSRIA tested, Energy House 2.0 certified.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-heat-source/heat-pump/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=8aeb1ab2-15ad-4754-9f75-1c72178ec44b', width: 1200, height: 630, alt: 'Skirting Board Heating for Heat Pumps | ThermaSkirt' }],
+    },
 };
 
 export default function HeatPumpPage() {
@@ -28,7 +31,7 @@ export default function HeatPumpPage() {
                     description="Heat pumps are incredibly efficient—provided they run at low temperatures (35–45°C). ThermaSkirt delivers the massive surface area required to heat your home at these flow temperatures, outperforming standard radiators and matching the comfort of underfloor heating without digging up your floors."
                     primaryCta={{ text: "Get a Heat Pump Quote", href: "/homeowners/get-a-quote" }}
                     secondaryCta={{ text: "See the Test Data", href: "/specifiers/technical-data/bsria-test-results" }}
-                    imageSrc="/assets/images/homeowner-heat-pump.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=8aeb1ab2-15ad-4754-9f75-1c72178ec44b"
                     imageAlt="A modern home with an air source heat pump outside and ThermaSkirt skirting board heating inside"
                 />
 

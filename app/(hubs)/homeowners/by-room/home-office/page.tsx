@@ -12,7 +12,10 @@ export const metadata = {
     description: 'Keep your home office warm year-round. ThermaSkirt frees up wall space for desks and shelving while providing fast, responsive, silent heat.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-room/home-office/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=1b9a575e-60f1-4319-8c68-aeb033ff130a', width: 1200, height: 630, alt: 'Home Office Skirting Board Heating | ThermaSkirt' }],
+    },
 };
 
 export default function HomeOfficePage() {
@@ -27,7 +30,7 @@ export default function HomeOfficePage() {
                     description="Your home office is likely the smallest room in the house, but requires the most furniture. ThermaSkirt removes bulky radiators, giving you back the wall space needed for desks, filing cabinets, and multi-monitor setups."
                     primaryCta={{ text: "Get a Room Quote", href: "/homeowners/get-a-quote" }}
                     secondaryCta={{ text: "View Cost Guide", href: "/homeowners/cost-guide" }}
-                    imageSrc="/assets/images/homeowner-office.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=1b9a575e-60f1-4319-8c68-aeb033ff130a"
                     imageAlt="A modern, bright home office heated invisibly by ThermaSkirt"
                 />
 
@@ -145,12 +148,12 @@ export default function HomeOfficePage() {
                     heading="Explore ThermaSkirt by Room"
                     description="See how ThermaSkirt transforms every space in your home."
                     tiles={[
-                        { title: "Living Room", description: "Reclaim your walls for sofas and media units.", href: "/homeowners/by-room/living-room" },
-                        { title: "Bedroom", description: "Silent, space-saving warmth for a better night's sleep.", href: "/homeowners/by-room/bedroom" },
-                        { title: "Kitchen", description: "Plinth heating that frees up every cabinet.", href: "/homeowners/by-room/kitchen" },
-                        { title: "Open Plan", description: "Even comfort across large, connected spaces.", href: "/homeowners/by-room/open-plan" },
-                        { title: "Garden Room", description: "Year-round comfort in compact spaces.", href: "/homeowners/by-room/garden-room" },
-                        { title: "Bathroom", description: "Warm tiles, no damp, no rust.", href: "/homeowners/by-room/bathroom" },
+                        { title: "Living Room", description: "Reclaim your walls for sofas and media units.", href: "/homeowners/by-room/living-room", image: "https://www.discreteheat.com/MediaHandler.ashx?id=2a3a5535-6119-4b26-b66f-263eecc7eb5a" },
+                        { title: "Bedroom", description: "Silent, space-saving warmth for a better night's sleep.", href: "/homeowners/by-room/bedroom", image: "https://www.discreteheat.com/MediaHandler.ashx?id=9d650245-84b3-433b-bc74-32223612fdfe" },
+                        { title: "Kitchen", description: "Plinth heating that frees up every cabinet.", href: "/homeowners/by-room/kitchen", image: "https://www.discreteheat.com/MediaHandler.ashx?id=8ffc200d-e646-42a6-bbec-d15ca4a01240" },
+                        { title: "Open Plan", description: "Even comfort across large, connected spaces.", href: "/homeowners/by-room/open-plan", image: "https://www.discreteheat.com/MediaHandler.ashx?id=89b3f691-9bbc-4268-941a-8ba213267301" },
+                        { title: "Garden Room", description: "Year-round comfort in compact spaces.", href: "/homeowners/by-room/garden-room", image: "https://www.discreteheat.com/MediaHandler.ashx?id=ae52252a-9018-4898-bea9-51eb467c72f3" },
+                        { title: "Bathroom", description: "Warm tiles, no damp, no rust.", href: "/homeowners/by-room/bathroom", image: "https://www.discreteheat.com/MediaHandler.ashx?id=70ce7e2a-6d6e-45c4-ab90-7d0cbaab64c8" },
                     ]}
                 />
 

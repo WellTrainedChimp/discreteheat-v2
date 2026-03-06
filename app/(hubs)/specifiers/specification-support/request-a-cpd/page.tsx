@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Book our CIBSE-approved "Low Flow Radiance" Continuing Professional Development (CPD) session for your architectural or M&E practice.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/specification-support/request-a-cpd/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=660596bd-ec1d-411c-91c5-bd0746641217', width: 1200, height: 630, alt: 'Request an Engineering CPD | ThermaSkirt' }],
+    },
 };
 
 const otherSupport = [
@@ -29,7 +32,7 @@ export default function RequestCPDPage() {
                     titleHighlight="Technical Seminars."
                     description="Book our industry-leading CPD session: 'Low Flow Radiance'. We deliver comprehensive technical training on integrating radiant baseboard heating with Air Source Heat Pumps to satisfy Part L and the Future Homes Standard."
                     primaryCta={{ text: "Book Online/In-Person CPD", href: "/about/contact" }}
-                    imageSrc="/assets/images/technical-cpd.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=660596bd-ec1d-411c-91c5-bd0746641217"
                     imageAlt="An engineer delivering a technical CPD presentation to an architectural practice"
                 />
 

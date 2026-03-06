@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Compare ThermaSkirt with kitchen plinth heaters. Stop kicking grilles, stop listening to fan noise, and heat your kitchen with clean, silent radiant skirting.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/vs/plinth-heaters/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=c4910a9c-abf2-4a05-8584-3f8aab246542', width: 1200, height: 630, alt: 'ThermaSkirt vs Plinth Heaters | Kitchen Heating Comparison' }],
+    },
 };
 
 export default function VsPlinthHeatersPage() {
@@ -23,7 +26,7 @@ export default function VsPlinthHeatersPage() {
                     titleHighlight="zero dust traps."
                     description="When kitchens run out of wall space for radiators, plinth heaters are often shoved under the cabinets. They blow dust across your floor, drone loudly, and get kicked. ThermaSkirt replaces the cabinet plinths entirely, delivering silent, radiant heat that wipes clean in seconds."
                     primaryCta={{ text: "Get a System Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-plinth-vs.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=c4910a9c-abf2-4a05-8584-3f8aab246542"
                     imageAlt="A side-by-side demonstration of a dusty, dented plinth heater grille vs a beautiful, seamless ThermaSkirt kitchen plinth"
                 />
 

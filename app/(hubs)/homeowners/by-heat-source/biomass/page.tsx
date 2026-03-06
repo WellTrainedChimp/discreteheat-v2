@@ -11,7 +11,10 @@ export const metadata = {
     description: 'The perfect emitter for high-temperature biomass and log gasification boilers. ThermaSkirt distributes intense 80°C+ heat evenly around the perimeter, eliminating the scorching created by conventional radiators.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-heat-source/biomass/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=1fe3a518-c4e0-4fa9-acc2-23dd9fadf5bc', width: 1200, height: 630, alt: 'Biomass Boiler Skirting Board Heating | ThermaSkirt' }],
+    },
 };
 
 export default function BiomassPage() {
@@ -26,7 +29,7 @@ export default function BiomassPage() {
                     description="Biomass boilers and log gasification systems produce very high flow temperatures—often 75–80°C. Pumping this into a single steel radiator creates an unbearably hot convection draft next to it and leaves the rest of the room cold. ThermaSkirt spreads this intense heat evenly around the entire perimeter."
                     primaryCta={{ text: "Get a System Quote", href: "/homeowners/get-a-quote" }}
                     secondaryCta={{ text: "How Much Does It Cost?", href: "/homeowners/cost-guide" }}
-                    imageSrc="/assets/images/homeowner-biomass.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=1fe3a518-c4e0-4fa9-acc2-23dd9fadf5bc"
                     imageAlt="A barn conversion heated by a biomass-powered ThermaSkirt system"
                 />
 

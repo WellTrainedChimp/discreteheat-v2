@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Dedicated compliance packs and carbon reduction forecasting for Social Housing Decarbonisation Fund (SHDF) bids using ThermaSkirt.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/specification-support/shdf-documentation/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=b6b35020-a668-4a2a-8072-c8f957bc442b', width: 1200, height: 630, alt: 'SHDF Documentation & PAS 2035 Compliance | ThermaSkirt' }],
+    },
 };
 
 const otherSupport = [
@@ -29,7 +32,7 @@ export default function SHDFDocumentationPage() {
                     titleHighlight="Compliance Packs."
                     description="Secure your Social Housing Decarbonisation Fund (SHDF) bids with robust, independent evidence proving ThermaSkirt\'s ability to deliver low-carbon heat without devastating tenant disruption."
                     primaryCta={{ text: "Download SHDF Toolkit", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-shdf.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=b6b35020-a668-4a2a-8072-c8f957bc442b"
                     imageAlt="A social housing estate undergoing a fabric-first SHDF retrofit"
                 />
 

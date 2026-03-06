@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Compare Electric ThermaSkirt with night storage heaters. Discover how to gain total temperature control, lower your bills, and reclaim your living space.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/vs/storage-heaters/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=874504cd-006b-4bff-99b9-84c0f8b68e7f', width: 1200, height: 630, alt: 'ThermaSkirt vs Storage Heaters | Skirting Board Heating Comparison' }],
+    },
 };
 
 export default function VsStorageHeatersPage() {
@@ -23,7 +26,7 @@ export default function VsStorageHeatersPage() {
                     titleHighlight="not the other way around."
                     description="Night storage heaters trap homeowners in a cycle of freezing evenings and boiling mornings. They are massive, intensely heavy, and dictate your room layout. Electric ThermaSkirt provides instantaneous, app-controlled radiant heat exactly when you want it, entirely hidden in the skirting."
                     primaryCta={{ text: "Get a System Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-storage-vs.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=874504cd-006b-4bff-99b9-84c0f8b68e7f"
                     imageAlt="A side-by-side demonstration of a bulky night storage heater vs a sleek Electric ThermaSkirt profile"
                 />
 

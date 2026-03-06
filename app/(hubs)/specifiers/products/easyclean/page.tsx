@@ -9,7 +9,10 @@ export const metadata = {
     description: 'NHS-approved, anti-ligature low surface temperature heating profile. Extruded aluminium construction scaled for clinical, mental health, and secure environments.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/products/easyclean/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=9a7b40c8-0245-4d26-a04d-72304b92a02f', width: 1200, height: 630, alt: 'EasyClean LST Heating | Specifier Products' }],
+    },
 };
 
 const otherProducts = [
@@ -30,7 +33,7 @@ export default function EasyCleanLSTPage() {
                     titleHighlight="infection control."
                     description="The EasyClean LST profile replaces exposed, grille-covered radiators with a smooth, continuous, easily cleanable surface. Validated by NHS Trusts across the country for use in high-risk environments."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/product-easyclean.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=9a7b40c8-0245-4d26-a04d-72304b92a02f"
                     imageAlt="Close-up of the EasyClean flush heating profile sealed to the floor and wall"
                 />
 

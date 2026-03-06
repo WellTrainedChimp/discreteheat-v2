@@ -4,6 +4,9 @@ import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 export const metadata = {
     title: 'Maintenance Guides | DiscreteHeat Trade',
     description: 'Guidelines for bleeding, cleaning, and decorating around ThermaSkirt systems.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=c8ef6e5f-6676-4063-8100-20443ecc05f8', width: 1200, height: 630, alt: 'Maintenance Guides | DiscreteHeat Trade' }],
+    },
 };
 
 const internalLinks = [
@@ -11,13 +14,13 @@ const internalLinks = [
         title: "Installation Instructions",
         description: "Review exact fitting requirements.",
         href: "/trade/resources/installation-instructions",
-        image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1",
     },
     {
         title: "Warranty Registration",
         description: "Register completed installations to activate the guarantee.",
         href: "/trade/resources/warranty-registration",
-        image: "https://images.unsplash.com/photo-1450101499163-c8848c66cb85?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=f206172e-f79f-42dc-a7ce-78d4418d492a",
     }
 ];
 
@@ -28,7 +31,7 @@ export default function MaintenanceGuidesPage() {
                 title="Maintenance Guides"
                 badge="Aftercare"
                 description="Share these simple maintenance protocols with the homeowner during handover, covering decorating, cleaning, and system bleeding."
-                imageSrc="https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=c8ef6e5f-6676-4063-8100-20443ecc05f8"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">

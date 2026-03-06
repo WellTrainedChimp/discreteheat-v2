@@ -4,6 +4,9 @@ import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 export const metadata = {
     title: 'Find a Branch | DiscreteHeat Trade',
     description: 'Use our store locator to find your nearest plumbing merchant stocking ThermaSkirt lengths and components.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=be1541f1-aaa6-4386-bf9e-c0076bc5e27d', width: 1200, height: 630, alt: 'Find a Branch | DiscreteHeat Trade' }],
+    },
 };
 
 const internalLinks = [
@@ -11,13 +14,13 @@ const internalLinks = [
         title: "Marketing Materials",
         description: "Request POS displays, counter POS, brochures, and digital assets.",
         href: "/trade/merchants/marketing-materials",
-        image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=6a652cac-0afb-459f-b8e3-82b3b5fa4ff0",
     },
     {
         title: "Open a Trade Account",
         description: "Apply for a credit account to access wholesale pricing directly from us.",
         href: "/trade/merchants/open-a-trade-account",
-        image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=94a221fb-c3e2-4ea5-8e49-ab0b223dba6b",
     }
 ];
 
@@ -28,7 +31,7 @@ export default function FindABranchPage() {
                 title="Find a Branch"
                 badge="National Stockists"
                 description="ThermaSkirt and Add2Rad components are stocked by over 400 national and independent plumbing merchants across the UK."
-                imageSrc="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=be1541f1-aaa6-4386-bf9e-c0076bc5e27d"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">
@@ -87,7 +90,7 @@ export default function FindABranchPage() {
                             {/* Map Placeholder Area */}
                             <div className="lg:col-span-2 bg-gray-200 relative min-h-[400px] lg:min-h-0 flex items-center justify-center overflow-hidden">
                                 {/* Simulated map background */}
-                                <div className="absolute inset-0 opacity-40 bg-[url('https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1920')] bg-cover bg-center"></div>
+                                <div className="absolute inset-0 opacity-40 bg-[url('https://www.discreteheat.com/MediaHandler.ashx?id=94a221fb-c3e2-4ea5-8e49-ab0b223dba6b')] bg-cover bg-center"></div>
                                 <div className="absolute inset-0 bg-blue-50/60 backdrop-blur-[2px]"></div>
 
                                 <div className="relative z-10 text-center bg-white/90 p-6 rounded-xl shadow-lg border border-black/5 backdrop-blur-md max-w-sm">

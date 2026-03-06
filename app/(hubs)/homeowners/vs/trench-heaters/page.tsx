@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Compare ThermaSkirt with trench heating systems for bi-fold doors. Learn why skirting heating is cheaper, cleaner, and easier to install.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/vs/trench-heaters/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=0893887c-5c27-4710-ab1f-d1079f9d05d6', width: 1200, height: 630, alt: 'ThermaSkirt vs Trench Heaters | Skirting Board Heating Comparison' }],
+    },
 };
 
 export default function VsTrenchHeatersPage() {
@@ -23,7 +26,7 @@ export default function VsTrenchHeatersPage() {
                     titleHighlight="without the ditch."
                     description="When installing massive expanses of glass or bi-fold doors, hanging radiators is impossible. Trench heaters solve this by sinking grilles into the floor, but they are hideously expensive and fill with dirt. ThermaSkirt offers a sleek, above-ground alternative that stops drafts at the source."
                     primaryCta={{ text: "Get a System Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-trench-vs.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=0893887c-5c27-4710-ab1f-d1079f9d05d6"
                     imageAlt="A side-by-side demonstration of a dirty trench heater grille vs a clean ThermaSkirt threshold"
                 />
 

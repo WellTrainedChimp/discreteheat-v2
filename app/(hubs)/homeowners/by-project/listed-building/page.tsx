@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Upgrade the heating in your Grade II listed property without ripping up historic floorboards or destroying the original aesthetics. ThermaSkirt offers a sympathetic, high-performance retrofit.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-project/listed-building/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=06143031-5517-4d3a-82c4-ca6d40299523', width: 1200, height: 630, alt: 'Listed Building Heating Solutions | ThermaSkirt' }],
+    },
 };
 
 export default function ListedBuildingPage() {
@@ -23,7 +26,7 @@ export default function ListedBuildingPage() {
                     titleHighlight="modern efficiency."
                     description="Upgrading heating in a Grade-II listed property is fraught with conservation rules. Ripping up centuries-old floorboards for underfloor heating is often strictly prohibited. ThermaSkirt offers modern radiant heating disguised beautifully as classic Victorian skirting."
                     primaryCta={{ text: "Get a Heritage Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-listed.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=06143031-5517-4d3a-82c4-ca6d40299523"
                     imageAlt="A sympathetic renovation of a heritage living space heated invisibly by ThermaSkirt Deco"
                 />
 

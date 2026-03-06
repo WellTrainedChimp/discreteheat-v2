@@ -10,7 +10,10 @@ export const metadata = {
     description: 'Compare skirting board heating against underfloor heating. See the differences in cost, disruption, response time, and thermal comfort to make the right choice for your home.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/vs/underfloor-heating/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=328b67ed-7ad0-42ad-87be-2cf17718c48e', width: 1200, height: 630, alt: 'ThermaSkirt vs Underfloor Heating (UFH) | Comparison' }],
+    },
 };
 
 export default function VsUfhPage() {
@@ -24,7 +27,7 @@ export default function VsUfhPage() {
                     titleHighlight="Underfloor Heating"
                     description="Both systems free up your walls and deliver excellent radiant heat that works perfectly with heat pumps. The difference lies entirely in the installation, the cost, and the response time. Here is the honest, side-by-side comparison."
                     primaryCta={{ text: "Get a ThermaSkirt Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-vs-ufh.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=328b67ed-7ad0-42ad-87be-2cf17718c48e"
                     imageAlt="Split screen showing ThermaSkirt installation vs Underfloor Heating piping"
                 />
 

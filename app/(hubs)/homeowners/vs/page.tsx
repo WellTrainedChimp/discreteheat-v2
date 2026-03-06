@@ -7,7 +7,10 @@ export const metadata = {
     description: 'Honest, side-by-side comparisons of ThermaSkirt against underfloor heating, traditional radiators, storage heaters, and panel heaters.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/vs/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=328b67ed-7ad0-42ad-87be-2cf17718c48e', width: 1200, height: 630, alt: 'Compare ThermaSkirt vs Alternatives | Homeowner Guide' }],
+    },
 };
 
 export default function ComparisonsSubHub() {

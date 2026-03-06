@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Guidance for M&E engineers on modelling perimeter radiant skirting systems against standard heat loss calculations like DIN EN 12831.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/technical-data/heat-loss-methodology/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=c699edc3-f10e-40fc-89ba-c936d1a1f75d', width: 1200, height: 630, alt: 'Heat Loss Methodology | Technical Data | ThermaSkirt' }],
+    },
 };
 
 const otherData = [
@@ -29,7 +32,7 @@ export default function HeatLossMethodologyPage() {
                     titleHighlight="specification."
                     description="A guide for specifiers and building physics engineers on how to accurately model continuous radiant loads within standard heat loss software."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-heatloss.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=c699edc3-f10e-40fc-89ba-c936d1a1f75d"
                     imageAlt="A blueprint and M&E design schematic for a ThermaSkirt installation"
                 />
 

@@ -7,7 +7,10 @@ export const metadata = {
     description: 'Independent test reports, heat output tables, compliance documentation, and scientific analysis for ThermaSkirt radiant heating profiles.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/technical-data/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=16027df0-9209-4f6f-b0e6-87a7e41c8875', width: 1200, height: 630, alt: 'Technical Data & Compliance | ThermaSkirt Specifiers' }],
+    },
 };
 
 export default function TechnicalDataSubHub() {

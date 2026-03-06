@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import SubHubHero from '@/components/server/SubHubHero';
 import FAQText from '@/components/server/FAQText';
 import CTABanner from '@/components/blocks/CTABanner';
@@ -12,7 +13,10 @@ export const metadata = {
     description: 'Keep your insulated timber garden room warm all winter. ThermaSkirt provides rapid, reliable heating without cluttering tiny floor plans with portable radiators.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-room/garden-room/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=ae52252a-9018-4898-bea9-51eb467c72f3', width: 1200, height: 630, alt: 'Garden Room Heating | ThermaSkirt' }],
+    },
 };
 
 export default function GardenRoomPage() {
@@ -27,7 +31,7 @@ export default function GardenRoomPage() {
                     description="Modern insulated garden rooms are stunning spaces for offices, gyms, or studios. Because their footprint is tightly constrained by planning permissions, sacrificing 1.5 square metres to a panel radiator or tripping over portable electric heaters ruins the space. ThermaSkirt provides invisible, rapid heat that hugs the perimeter."
                     primaryCta={{ text: "Get a Room Quote", href: "/homeowners/get-a-quote" }}
                     secondaryCta={{ text: "View Cost Guide", href: "/homeowners/cost-guide" }}
-                    imageSrc="/assets/images/homeowner-garden.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=ae52252a-9018-4898-bea9-51eb467c72f3"
                     imageAlt="A sleek, modern timber garden room heated perfectly with ThermaSkirt"
                 />
 
@@ -59,10 +63,10 @@ export default function GardenRoomPage() {
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-16">
                             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-dh-grey-light border border-dh-grey-light/50">
-                                <div className="absolute inset-0 flex items-center justify-center text-dh-grey">Garden Room Image 1</div>
+                                <Image src="https://www.discreteheat.com/MediaHandler.ashx?id=b6b35020-a668-4a2a-8072-c8f957bc442b" alt="ThermaSkirt installed in a garden room conservatory" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
                             </div>
                             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-dh-grey-light border border-dh-grey-light/50">
-                                <div className="absolute inset-0 flex items-center justify-center text-dh-grey">Garden Room Image 2</div>
+                                <Image src="https://www.discreteheat.com/MediaHandler.ashx?id=6492a852-f98b-49da-9b83-8444d5935067" alt="Electric ThermaSkirt-e heating in a modern garden room" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
                             </div>
                         </div>
 
@@ -142,12 +146,12 @@ export default function GardenRoomPage() {
                     heading="Explore ThermaSkirt by Room"
                     description="See how ThermaSkirt transforms every space in your home."
                     tiles={[
-                        { title: "Living Room", description: "Reclaim your walls for sofas and media units.", href: "/homeowners/by-room/living-room" },
-                        { title: "Bedroom", description: "Silent, space-saving warmth for a better night's sleep.", href: "/homeowners/by-room/bedroom" },
-                        { title: "Kitchen", description: "Plinth heating that frees up every cabinet.", href: "/homeowners/by-room/kitchen" },
-                        { title: "Home Office", description: "Consistent warmth, zero distractions.", href: "/homeowners/by-room/home-office" },
-                        { title: "Open Plan", description: "Even comfort across large, connected spaces.", href: "/homeowners/by-room/open-plan" },
-                        { title: "Bathroom", description: "Warm tiles, no damp, no rust.", href: "/homeowners/by-room/bathroom" },
+                        { title: "Living Room", description: "Reclaim your walls for sofas and media units.", href: "/homeowners/by-room/living-room", image: "https://www.discreteheat.com/MediaHandler.ashx?id=2a3a5535-6119-4b26-b66f-263eecc7eb5a" },
+                        { title: "Bedroom", description: "Silent, space-saving warmth for a better night's sleep.", href: "/homeowners/by-room/bedroom", image: "https://www.discreteheat.com/MediaHandler.ashx?id=9d650245-84b3-433b-bc74-32223612fdfe" },
+                        { title: "Kitchen", description: "Plinth heating that frees up every cabinet.", href: "/homeowners/by-room/kitchen", image: "https://www.discreteheat.com/MediaHandler.ashx?id=8ffc200d-e646-42a6-bbec-d15ca4a01240" },
+                        { title: "Home Office", description: "Consistent warmth, zero distractions.", href: "/homeowners/by-room/home-office", image: "https://www.discreteheat.com/MediaHandler.ashx?id=1b9a575e-60f1-4319-8c68-aeb033ff130a" },
+                        { title: "Open Plan", description: "Even comfort across large, connected spaces.", href: "/homeowners/by-room/open-plan", image: "https://www.discreteheat.com/MediaHandler.ashx?id=89b3f691-9bbc-4268-941a-8ba213267301" },
+                        { title: "Bathroom", description: "Warm tiles, no damp, no rust.", href: "/homeowners/by-room/bathroom", image: "https://www.discreteheat.com/MediaHandler.ashx?id=70ce7e2a-6d6e-45c4-ab90-7d0cbaab64c8" },
                     ]}
                 />
 

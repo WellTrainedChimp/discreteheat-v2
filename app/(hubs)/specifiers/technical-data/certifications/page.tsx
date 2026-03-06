@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Comprehensive overview of ThermaSkirt\'s CE / UKCA marking, BBA certifications, and NHS clinical compliance standards.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/technical-data/certifications/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=f283b198-65cc-43da-8ba3-c936fdcc94f1', width: 1200, height: 630, alt: 'Certifications & Compliance | ThermaSkirt' }],
+    },
 };
 
 const otherData = [
@@ -29,7 +32,7 @@ export default function CertificationsPage() {
                     titleHighlight="certified."
                     description="For large-scale specifications, the structural, thermal, and mechanical safety of an emitter must be unconditionally guaranteed. ThermaSkirt holds leading industry approvals across the UK and Europe."
                     primaryCta={{ text: "Request Compliance Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-certifications.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=f283b198-65cc-43da-8ba3-c936fdcc94f1"
                     imageAlt="A close-up of the CE and UKCA marks on a ThermaSkirt packaging label"
                 />
 

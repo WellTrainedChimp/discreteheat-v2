@@ -7,7 +7,10 @@ export const metadata = {
     description: 'Find out how ThermaSkirt fits into your specific home improvement project, from simple retrofits to comprehensive self-builds and extensions.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-project/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=c287107e-ac14-4abc-b282-8676388df56c', width: 1200, height: 630, alt: 'Skirting Board Heating by Project | ThermaSkirt' }],
+    },
 };
 
 export default function ByProjectSubHub() {

@@ -7,7 +7,10 @@ export const metadata = {
     description: 'Explore the full range of ThermaSkirt radiant skirting board heating profiles, including water-based, electric, healthcare, and retrofit supplementary systems.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/products/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=c287107e-ac14-4abc-b282-8676388df56c', width: 1200, height: 630, alt: 'Products for Specification | ThermaSkirt' }],
+    },
 };
 
 export default function SpecifierProductsSubHub() {

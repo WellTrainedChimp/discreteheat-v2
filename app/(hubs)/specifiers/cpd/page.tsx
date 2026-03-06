@@ -8,7 +8,10 @@ export const metadata = {
     description: 'Book CIBSE-approved Continuing Professional Development (CPD) sessions and access engineering training materials for radiant heating specification.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/cpd/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=cff4020d-4eb2-4e07-b11a-9dedea2de221', width: 1200, height: 630, alt: 'CPD Seminars & Engineering Training | ThermaSkirt' }],
+    },
 };
 
 export default function CPDHubPage() {
@@ -22,7 +25,7 @@ export default function CPDHubPage() {
                     titleHighlight="Technical Training."
                     description="Advance your engineering practice\'s knowledge of low-temperature radiant heating. Access our on-demand training modules or book an interactive, accredited CPD session for your team."
                     primaryCta={{ text: "Book an In-Person CPD", href: "/about/contact" }}
-                    imageSrc="/assets/images/technical-cpd-hub.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=cff4020d-4eb2-4e07-b11a-9dedea2de221"
                     imageAlt="A group of architects and engineers discussing building schematics during a technical presentation"
                 />
 

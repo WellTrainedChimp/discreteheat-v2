@@ -5,6 +5,9 @@ import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 export const metadata = {
     title: 'EasyClean LST Trade Data | DiscreteHeat',
     description: 'Anti-ligature and Low Surface Temperature (LST) requirements and installation data for the EasyClean profile.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=9a7b40c8-0245-4d26-a04d-72304b92a02f', width: 1200, height: 630, alt: 'EasyClean LST Trade Data | DiscreteHeat' }],
+    },
 };
 
 const internalLinks = [
@@ -12,13 +15,13 @@ const internalLinks = [
         title: "Installation Manuals",
         description: "Step-by-step PDF guides for all ThermaSkirt profiling and corners.",
         href: "/trade/resources/installation-manuals",
-        image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1",
     },
     {
         title: "Technical Data Sheets",
         description: "Output tables, dimensions, and compliance docs.",
         href: "/trade/resources/technical-data-sheets",
-        image: "https://images.unsplash.com/photo-1544485304-6330ce1bb82f?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=16027df0-9209-4f6f-b0e6-87a7e41c8875",
     }
 ];
 
@@ -29,7 +32,7 @@ export default function TradeEasyCleanPage() {
                 title="EasyClean LST"
                 badge="Healthcare & Security Profile"
                 description="The EasyClean profile is designed specifically for healthcare, mental health units (anti-ligature), and care homes requiring certified Low Surface Temperature (LST) heating without covers."
-                imageSrc="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=9a7b40c8-0245-4d26-a04d-72304b92a02f"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">

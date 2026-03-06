@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Electric infrared coving heating. An elegant, space-saving solution for environments where floor-level skirting installation is not feasible.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/products/thermacurve/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1', width: 1200, height: 630, alt: 'ThermaCurve Coving | Specifier Products' }],
+    },
 };
 
 const otherProducts = [
@@ -30,7 +33,7 @@ export default function ThermaCurvePage() {
                     titleHighlight="above."
                     description="ThermaCurve is an electric radiant coving profile designed specifically for kitchens with continuous cabinet runs, bathrooms, and commercial spaces where altering the skirting board is not possible or desired."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/product-thermacurve.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1"
                     imageAlt="ThermaCurve installed at the intersection of a wall and ceiling, blending cleanly into the room decor."
                 />
 

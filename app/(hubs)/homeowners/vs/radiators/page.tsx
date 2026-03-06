@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Compare ThermaSkirt with standard steel panel radiators. Learn how skirting board heating provides better thermal comfort, stops cold spots, and reclaims your wall space.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/vs/radiators/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=78462530-72ea-4156-bae5-ed617dd9d65f', width: 1200, height: 630, alt: 'ThermaSkirt vs Radiators | Skirting Board Heating Comparison' }],
+    },
 };
 
 export default function VsRadiatorsPage() {
@@ -23,7 +26,7 @@ export default function VsRadiatorsPage() {
                     titleHighlight="walls."
                     description="Standard steel panel radiators have dominated UK heating for decades. They are cheap to buy, but incredibly costly regarding interior design, thermal comfort, and heat pump efficiency. ThermaSkirt offers a modern, invisible alternative that dramatically outperforms the old white box."
                     primaryCta={{ text: "Get a System Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-radiator-vs.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=78462530-72ea-4156-bae5-ed617dd9d65f"
                     imageAlt="A side-by-side demonstration of a cluttered radiator room vs a clean ThermaSkirt perimeter"
                 />
 

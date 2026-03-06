@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Heat your new home extension quickly and reliably. ThermaSkirt connects to your existing boiler without digging up floors or raising heights to match the old house.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-project/extension/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=3b6c6838-6846-48b5-8ec6-ec6f8b62d586', width: 1200, height: 630, alt: 'Extension Heating Systems | ThermaSkirt' }],
+    },
 };
 
 export default function ExtensionPage() {
@@ -23,7 +26,7 @@ export default function ExtensionPage() {
                     titleHighlight="zero thresholds."
                     description="Adding a rear or side extension is exciting, but integrating its heating with the original house is notoriously difficult. Underfloor heating raises the floor heights and takes weeks to install. ThermaSkirt provides radiant comfort that bridges the old and the new perfectly."
                     primaryCta={{ text: "Get an Extension Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-extension.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=3b6c6838-6846-48b5-8ec6-ec6f8b62d586"
                     imageAlt="A large, bright modern rear extension heated invisibly by ThermaSkirt"
                 />
 
