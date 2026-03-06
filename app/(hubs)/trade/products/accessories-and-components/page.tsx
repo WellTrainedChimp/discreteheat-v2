@@ -5,6 +5,9 @@ import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 export const metadata = {
     title: 'Trade Accessories & Components | DiscreteHeat',
     description: 'Installation components, push fit trims, manifolds, and dedicated toolings for Trade installers.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=c17fc98f-1d55-491b-9638-72b32eda1d20', width: 1200, height: 630, alt: 'Trade Accessories & Components | DiscreteHeat' }],
+    },
 };
 
 const internalLinks = [
@@ -12,13 +15,13 @@ const internalLinks = [
         title: "Installation Manuals",
         description: "Step-by-step PDF guides for all ThermaSkirt profiling and corners.",
         href: "/trade/resources/installation-manuals",
-        image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1",
     },
     {
         title: "Installer Benefits",
         description: "Earn points to redeem on high-end toolings and components.",
         href: "/trade/installer-programme/benefits",
-        image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=d935984b-a5c8-431f-af3f-eeb2a19f4b66",
     }
 ];
 
@@ -29,7 +32,7 @@ export default function TradeAccessoriesPage() {
                 title="Accessories & Components"
                 badge="Everything to Finish the Job"
                 description="A complete ecosystem of trims, connectors, and tooling specifically developed to make installing ThermaSkirt fast, reliable, and aesthetically perfect."
-                imageSrc="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=c17fc98f-1d55-491b-9638-72b32eda1d20"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">

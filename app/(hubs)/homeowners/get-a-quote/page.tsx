@@ -6,7 +6,10 @@ export const metadata = {
     description: 'Upload your floor plans or room dimensions for a free, no-obligation ThermaSkirt quote. Our engineers will provide a detailed itemized parts manifest.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/get-a-quote/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=2a3a5535-6119-4b26-b66f-263eecc7eb5a', width: 1200, height: 630, alt: 'Get a Free Quote | ThermaSkirt Heating Design Service' }],
+    },
 };
 
 export default function GetAQuotePage() {

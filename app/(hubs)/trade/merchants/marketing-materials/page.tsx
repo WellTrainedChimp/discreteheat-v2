@@ -5,6 +5,9 @@ import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 export const metadata = {
     title: 'Marketing Materials for Merchants | DiscreteHeat Trade',
     description: 'Request point of sale displays, brochures, image assets, and technical manuals for your plumbing merchant branch.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=6a652cac-0afb-459f-b8e3-82b3b5fa4ff0', width: 1200, height: 630, alt: 'Marketing Materials for Merchants | DiscreteHeat Trade' }],
+    },
 };
 
 const internalLinks = [
@@ -12,13 +15,13 @@ const internalLinks = [
         title: "Find a Branch",
         description: "Search our network of over 400 national and independent merchant stockists.",
         href: "/trade/merchants/find-a-branch",
-        image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=be1541f1-aaa6-4386-bf9e-c0076bc5e27d",
     },
     {
         title: "Open a Trade Account",
         description: "Apply for a credit account to access wholesale pricing directly from us.",
         href: "/trade/merchants/open-a-trade-account",
-        image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=94a221fb-c3e2-4ea5-8e49-ab0b223dba6b",
     }
 ];
 
@@ -29,7 +32,7 @@ export default function MarketingMaterialsPage() {
                 title="Marketing Materials"
                 badge="Branch POS Support"
                 description="We actively support our merchant partners with high-quality point-of-sale displays, technical literature, and digital assets to drive in-branch sales and plumber awareness."
-                imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=6a652cac-0afb-459f-b8e3-82b3b5fa4ff0"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">
@@ -62,7 +65,7 @@ export default function MarketingMaterialsPage() {
                         </div>
                         <div className="relative aspect-square md:aspect-auto md:h-[500px] bg-dh-grey-light rounded-2xl overflow-hidden shadow-lg border-2 border-black/5">
                             {/* Visual placeholder for POS display image */}
-                            <Image src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&q=80&w=800" alt="Trade Display" fill className="object-cover" />
+                            <Image src="https://www.discreteheat.com/MediaHandler.ashx?id=6a652cac-0afb-459f-b8e3-82b3b5fa4ff0" alt="Trade Display" fill className="object-cover" />
                             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                                 <span className="text-white font-bold opacity-90">Standard Counter Display (W: 400mm x H: 650mm)</span>
                             </div>

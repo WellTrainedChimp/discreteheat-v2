@@ -12,25 +12,25 @@ const tradeProductData = [
         title: "ThermaSkirt H2O",
         description: "BM2: 126W/m at dT50. BM3: 188W/m at dT50.",
         href: "/trade/products/thermaskirt-h2o",
-        image: "https://images.unsplash.com/photo-1621844883401-eb4dacebb2c2?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=c287107e-ac14-4abc-b282-8676388df56c"
     },
     {
         title: "ThermaSkirt e",
         description: "Up to 130W/m output (BMe2).",
         href: "/trade/products/thermaskirt-e",
-        image: "https://images.unsplash.com/photo-1544485304-6330ce1bb82f?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=7f158087-624d-44eb-8ab7-1c885002c85f"
     },
     {
         title: "Add2Rad",
         description: "Retrofit emitter supplement. Connects in series to existing radiator tails.",
         href: "/trade/add2rad",
-        image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=9567dbe1-3e38-4b02-abff-ef9cd35115ef"
     },
     {
         title: "Tools & Accessories",
         description: "Order push-fit connectors, corner shrouds, mounting brackets, and specialized ThermaSkirt chop saw blades.",
         href: "/trade/products/accessories-and-components",
-        image: "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=c17fc98f-1d55-491b-9638-72b32eda1d20"
     }
 ];
 
@@ -39,25 +39,25 @@ const trainingSupportData = [
         title: "Registered Installer Programme",
         description: "Join the network to receive direct homeowner leads and access trade pricing.",
         href: "/trade/installer-programme/register",
-        image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=8e875883-9f9d-468d-9c61-d3da58e23f5f"
     },
     {
         title: "Training Academy",
         description: "Book an in-person session at our Manchester HQ or access online certification.",
         href: "/trade/installer-programme/training",
-        image: "https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=cff4020d-4eb2-4e07-b11a-9dedea2de221"
     },
     {
         title: "Lead Referral System",
         description: "How we distribute pre-qualified enquiries to installers in their local postcode area.",
         href: "/trade/installer-programme/lead-referral",
-        image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=660596bd-ec1d-411c-91c5-bd0746641217"
     },
     {
         title: "Benefits & Rewards",
         description: "Earn points on every metre installed. Unlock branded uniform and premium tools.",
         href: "/trade/installer-programme/benefits",
-        image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=d935984b-a5c8-431f-af3f-eeb2a19f4b66"
     }
 ];
 
@@ -66,19 +66,19 @@ const add2radData = [
         title: "The Add2Rad Method",
         description: "How to supplement existing radiators to handle 35-45°C flow temperatures.",
         href: "/trade/add2rad/the-method",
-        image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=78462530-72ea-4156-bae5-ed617dd9d65f"
     },
     {
         title: "Heat Pump Installer Guide",
         description: "Technical integration guide for air source and ground source installers.",
         href: "/trade/add2rad/heat-pump-installer-guide",
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=a9380b91-7438-4ba0-b0b6-a365a4bcd925"
     },
     {
         title: "Quoting & Pricing Models",
         description: "How to estimate and price Add2Rad retrofit projects for homeowners.",
         href: "/trade/add2rad/quoting-for-add2rad",
-        image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=c699edc3-f10e-40fc-89ba-c936d1a1f75d"
     }
 ];
 

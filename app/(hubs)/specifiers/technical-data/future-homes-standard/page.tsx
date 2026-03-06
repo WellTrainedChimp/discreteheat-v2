@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Guidance on designing and specifying ThermaSkirt to meet the incoming Future Homes Standard (FHS) 2025 for new build properties.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/technical-data/future-homes-standard/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=b889d081-eb6a-4970-a031-6a31c08dc8ae', width: 1200, height: 630, alt: 'Future Homes Standard 2025 Compliance | ThermaSkirt' }],
+    },
 };
 
 const otherData = [
@@ -29,7 +32,7 @@ export default function FutureHomesStandardPage() {
                     titleHighlight="(FHS) 2025."
                     description="Transitioning the UK\'s new build sector to low-carbon heating demands an evolution in heat emitter specification. ThermaSkirt fundamentally accelerates FHS compliance on site."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-fhs.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=b889d081-eb6a-4970-a031-6a31c08dc8ae"
                     imageAlt="A newly constructed residential development built to the Future Homes Standard 2025 methodology"
                 />
 

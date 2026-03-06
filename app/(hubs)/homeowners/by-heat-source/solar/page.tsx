@@ -12,7 +12,10 @@ export const metadata = {
     description: 'Maximise your solar thermal and PV investment. ThermaSkirt operates at 35–45°C flow temperatures, turning free solar energy into real room heating. Pairs with battery storage for sub-gas running costs.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-heat-source/solar/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=b6b35020-a668-4a2a-8072-c8f957bc442b', width: 1200, height: 630, alt: 'Solar Heating Compatible Skirting Boards | ThermaSkirt' }],
+    },
 };
 
 export default function SolarPage() {
@@ -27,7 +30,7 @@ export default function SolarPage() {
                     description="Solar thermal tubes and PV-driven systems produce 35–45°C warm water for free. Standard steel radiators are nearly useless at these temperatures. ThermaSkirt provides the massive surface area needed to turn solar gains into genuine, free room heating—independently verified by BSRIA."
                     primaryCta={{ text: "Get a System Quote", href: "/homeowners/get-a-quote" }}
                     secondaryCta={{ text: "See ThermaSkirt-e for PV", href: "/homeowners/by-heat-source/electric" }}
-                    imageSrc="/assets/images/homeowner-solar.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=b6b35020-a668-4a2a-8072-c8f957bc442b"
                     imageAlt="A modern eco-home with rooftop solar panels and ThermaSkirt skirting board heating inside"
                 />
 

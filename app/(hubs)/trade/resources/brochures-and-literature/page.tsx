@@ -4,6 +4,9 @@ import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 export const metadata = {
     title: 'Brochures & Literature | DiscreteHeat Trade',
     description: 'Download ThermaSkirt consumer brochures, trade catalogues, and case studies to help sell the system to your clients.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=6a652cac-0afb-459f-b8e3-82b3b5fa4ff0', width: 1200, height: 630, alt: 'Brochures & Literature | DiscreteHeat Trade' }],
+    },
 };
 
 const internalLinks = [
@@ -11,13 +14,13 @@ const internalLinks = [
         title: "Installation Instructions",
         description: "Step-by-step PDF manuals for all ThermaSkirt profiles.",
         href: "/trade/resources/installation-instructions",
-        image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1",
     },
     {
         title: "Technical Data Sheets",
         description: "Dimensioned drawings, component specifications, and CIBSE output tables.",
         href: "/trade/resources/technical-data-sheets",
-        image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=16027df0-9209-4f6f-b0e6-87a7e41c8875",
     }
 ];
 
@@ -28,7 +31,7 @@ export default function BrochuresAndLiteraturePage() {
                 title="Brochures & Literature"
                 badge="Sales Assets"
                 description="Equip yourself with the tools to sell ThermaSkirt. Hand over beautiful consumer brochures to homeowners, or use our trade catalog for quick component referencing."
-                imageSrc="https://images.unsplash.com/photo-1544715890-71717088b9dd?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=6a652cac-0afb-459f-b8e3-82b3b5fa4ff0"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">

@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Complimentary room-by-room heat loss scheduling, marked-up DWG floorplans, and manifold design for mechanical engineers and architects.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/specification-support/design-service/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=35bab5ca-1acb-49be-bc55-df357606b0b5', width: 1200, height: 630, alt: 'Free M&E Design Service | ThermaSkirt' }],
+    },
 };
 
 const otherSupport = [
@@ -29,7 +32,7 @@ export default function DesignServicePage() {
                     titleHighlight="Heat Loss Design."
                     description="We act as a direct extension to your M&E and architectural teams. Rely on our in-house engineers to handle the complex thermal modelling, CAD layouts, and compliance documentation completely free of charge."
                     primaryCta={{ text: "Upload Your Plans", href: "/about/contact" }}
-                    imageSrc="/assets/images/technical-design.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=35bab5ca-1acb-49be-bc55-df357606b0b5"
                     imageAlt="A mechanical engineer reviewing a CAD layout and thermal schedule"
                 />
 

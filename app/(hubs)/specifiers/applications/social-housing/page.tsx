@@ -9,7 +9,10 @@ export const metadata = {
     description: 'PAS 2035 compliant heating for social housing. Eliminate major disruption during occupied retrofits while enabling efficient low-temperature heat pump operation.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/applications/social-housing/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=988cff79-37a3-45fa-9a3d-aef77c978702', width: 1200, height: 630, alt: 'Social Housing Retrofit Heating | Specifiers' }],
+    },
 };
 
 const otherSectors = [
@@ -30,7 +33,7 @@ export default function SocialHousingPage() {
                     titleHighlight="Maximum efficiency."
                     description="Upgrade to heat pumps without the severe disruption of lifting floors for underfloor heating or re-piping for significantly oversized, bulky radiators. A rapid, low-impact solution for SHDF programmes."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/specifier-social-housing.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=988cff79-37a3-45fa-9a3d-aef77c978702"
                     imageAlt="ThermaSkirt BM2 profile installed cleanly in a social housing property"
                 />
 

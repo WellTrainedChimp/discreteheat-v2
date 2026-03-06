@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Direct electric radiant skirting board heating. 100% efficient at point of use. Self-regulating element. Ideal for solar PV and off-gas-grid projects.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/products/thermaskirt-e/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=7f158087-624d-44eb-8ab7-1c885002c85f', width: 1200, height: 630, alt: 'ThermaSkirt-e | Electric Specifier Products' }],
+    },
 };
 
 const otherProducts = [
@@ -30,7 +33,7 @@ export default function ThermaSkirtEPage() {
                     titleHighlight="self-regulating electric."
                     description="ThermaSkirt-e utilizes a custom-engineered self-regulating heating cable sealed within the aerospace-grade aluminium extrusion. Zero pipework, zero transformers, and 100% efficiency at the point of use."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/product-e.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=7f158087-624d-44eb-8ab7-1c885002c85f"
                     imageAlt="ThermaSkirt-e showing the electrical element channel"
                 />
 

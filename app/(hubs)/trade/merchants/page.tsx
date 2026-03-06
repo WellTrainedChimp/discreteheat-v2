@@ -5,6 +5,9 @@ import NavbarMorph from '@/components/client/NavbarMorph';
 export const metadata = {
     title: 'Merchants & Distributors Trade Hub | DiscreteHeat',
     description: 'Information for plumbing merchants and national distributors on stocking ThermaSkirt, opening trade accounts, and accessing marketing support.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=94a221fb-c3e2-4ea5-8e49-ab0b223dba6b', width: 1200, height: 630, alt: 'Merchants & Distributors Trade Hub | DiscreteHeat' }],
+    },
 };
 
 const merchantLinks = [
@@ -12,19 +15,19 @@ const merchantLinks = [
         title: "Open a Trade Account",
         description: "Apply for a credit account to access wholesale pricing, Next Day delivery, and dedicated account management.",
         href: "/trade/merchants/open-a-trade-account",
-        image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=94a221fb-c3e2-4ea5-8e49-ab0b223dba6b",
     },
     {
         title: "Find a Branch",
         description: "Search our network of over 400 national and independent merchant stockists.",
         href: "/trade/merchants/find-a-branch",
-        image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=be1541f1-aaa6-4386-bf9e-c0076bc5e27d",
     },
     {
         title: "Marketing Materials",
         description: "Request POS displays, counter POS, brochures, and digital assets for your branch and social media.",
         href: "/trade/merchants/marketing-materials",
-        image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=6a652cac-0afb-459f-b8e3-82b3b5fa4ff0",
     }
 ];
 
@@ -37,7 +40,7 @@ export default function TradeMerchantsHub() {
                     title="Merchants & Distributors"
                     badge="Wholesale Network"
                     description="Partner with the UK's fastest-growing heating manufacturer. We provide extensive support, high margins, and dedicated point-of-sale materials for our network of independent and national plumbing merchants."
-                    imageSrc="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=1920"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=94a221fb-c3e2-4ea5-8e49-ab0b223dba6b"
                 />
 
                 <section className="py-24 px-6 lg:px-12 bg-white">

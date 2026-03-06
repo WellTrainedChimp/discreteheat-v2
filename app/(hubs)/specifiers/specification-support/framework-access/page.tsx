@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Information on sourcing ThermaSkirt systems through pre-qualified UK public sector procurement frameworks such as Fusion21 and CHIC.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/specification-support/framework-access/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=aa10eaea-112c-43bb-ad51-e25ab2107709', width: 1200, height: 630, alt: 'Public Sector Procurement Frameworks | ThermaSkirt' }],
+    },
 };
 
 const otherSupport = [
@@ -29,7 +32,7 @@ export default function FrameworkAccessPage() {
                     titleHighlight="Major Frameworks."
                     description="We understand that public sector compliance and OJEU procurement rules are complex. ThermaSkirt is pre-approved on several major national frameworks, streamlining the purchasing route for local authorities and housing associations."
                     primaryCta={{ text: "View Approved Frameworks", href: "/about/contact" }}
-                    imageSrc="/assets/images/technical-framework.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=aa10eaea-112c-43bb-ad51-e25ab2107709"
                     imageAlt="A conceptual graphical representation of a public sector procurement network"
                 />
 

@@ -9,7 +9,10 @@ export const metadata = {
     description: 'The ultimate retrofit heating solution. Upgrade your home to lower flow temperatures and heat pumps without ripping up your floors for underfloor heating.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-project/retrofit/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=d7964b05-5c3a-4e29-9298-8ad0047ef874', width: 1200, height: 630, alt: 'Retrofit Skirting Board Heating | ThermaSkirt' }],
+    },
 };
 
 export default function RetrofitPage() {
@@ -23,7 +26,7 @@ export default function RetrofitPage() {
                     titleHighlight="heat-pump ready."
                     description="Upgrading your home's energy efficiency doesn't mean moving out while your floors are ripped up. ThermaSkirt connects to your existing pipework above ground, delivering the low-temperature performance of underfloor heating with the simplicity of replacing your skirting boards."
                     primaryCta={{ text: "See Retrofit Costs", href: "/homeowners/cost-guide" }}
-                    imageSrc="/assets/images/homeowner-retrofit.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=d7964b05-5c3a-4e29-9298-8ad0047ef874"
                     imageAlt="A renovated UK period property with new skirting heating"
                 />
 

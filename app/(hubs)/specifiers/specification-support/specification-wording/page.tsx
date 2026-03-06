@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Pre-written National Building Specification (NBS) clauses, Uniclass codes, and performance-based tender wording for ThermaSkirt radiant heating.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/specification-support/specification-wording/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=16fc1a25-4404-4039-b823-56ce313d69fb', width: 1200, height: 630, alt: 'Specification Wording, NBS & Tender Clauses | ThermaSkirt' }],
+    },
 };
 
 const otherSupport = [
@@ -29,7 +32,7 @@ export default function SpecificationWordingPage() {
                     titleHighlight="Tender Wording."
                     description="Drop-in specification text designed to lock in performance criteria, prevent inferior product substitutions, and guarantee BSRIA-verified heat outputs on your project."
                     primaryCta={{ text: "Download Full Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-nbs.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=16fc1a25-4404-4039-b823-56ce313d69fb"
                     imageAlt="Architectural blueprints and specification documents overlaid with NBS clause codes"
                 />
 

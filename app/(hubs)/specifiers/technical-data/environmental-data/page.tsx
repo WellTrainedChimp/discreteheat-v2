@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Technical environmental data showcasing ThermaSkirt\'s use of recycled aluminium, embodied carbon estimates, and lifecycle sustainability.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/technical-data/environmental-data/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=c17fc98f-1d55-491b-9638-72b32eda1d20', width: 1200, height: 630, alt: 'Environmental Data & Recycled Content | ThermaSkirt' }],
+    },
 };
 
 const otherData = [
@@ -29,7 +32,7 @@ export default function EnvironmentalDataPage() {
                     titleHighlight="circular economy."
                     description="Decarbonising heating is not just about operational carbon (running costs). The embodied carbon of manufacturing massive oversized radiators is severe. ThermaSkirt provides a deeply sustainable hardware alternative."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-environmental.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=c17fc98f-1d55-491b-9638-72b32eda1d20"
                     imageAlt="Close up view of the recycled aluminium extrusion process for a ThermaSkirt profile"
                 />
 

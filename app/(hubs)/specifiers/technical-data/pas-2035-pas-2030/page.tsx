@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Guidelines on utilizing ThermaSkirt to meet PAS 2035 standards during whole-house retrofits and SHDF (Social Housing Decarbonisation Fund) projects.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/technical-data/pas-2035-pas-2030/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=cfe551f7-ef53-4fe1-bfcc-7857ea300230', width: 1200, height: 630, alt: 'PAS 2035 & 2030 Retrofit Compliance | ThermaSkirt' }],
+    },
 };
 
 const otherData = [
@@ -29,7 +32,7 @@ export default function PASCompliancePage() {
                     titleHighlight="PAS 2035 standards."
                     description="The PAS 2035 framework demands a 'fabric first' approach coupled with low-temperature emitters. ThermaSkirt bridges the gap where disruptive heat pump retrofits stall."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-pas2035.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=cfe551f7-ef53-4fe1-bfcc-7857ea300230"
                     imageAlt="A retrofit coordinator assessing thermal performance against a PAS 2035 whole-house plan"
                 />
 

@@ -7,7 +7,10 @@ export const metadata = {
     description: 'Comprehensive support for M&E consultants, architects, and specifiers. Includes free heat loss scheduling, CAD design, NBS clauses, and BSRIA compliance data.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/specification-support/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=16027df0-9209-4f6f-b0e6-87a7e41c8875', width: 1200, height: 630, alt: 'Specification Support & Services | ThermaSkirt' }],
+    },
 };
 
 export default function SpecificationSupportSubHub() {

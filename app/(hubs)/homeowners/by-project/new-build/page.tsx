@@ -9,7 +9,10 @@ export const metadata = {
     description: 'The ultimate low-temperature heating system for new builds. Install ThermaSkirt in half the time of underfloor heating, freeing your architectural designs from massive radiators.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-project/new-build/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=cfe551f7-ef53-4fe1-bfcc-7857ea300230', width: 1200, height: 630, alt: 'New Build & Self Build Heating | ThermaSkirt' }],
+    },
 };
 
 export default function NewBuildPage() {
@@ -23,7 +26,7 @@ export default function NewBuildPage() {
                     titleHighlight="built in."
                     description="When building your own home, you shouldn't be constrained by heating systems. While underfloor heating dictates your floor finishes and structural engineering, ThermaSkirt provides the same invisible, low-temperature radiant heat but installs precisely where you need it—without slowing down your build schedule."
                     primaryCta={{ text: "Get a Setup Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-self-build.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=cfe551f7-ef53-4fe1-bfcc-7857ea300230"
                     imageAlt="A stunning architectural self-build interior heated by ThermaSkirt"
                 />
 

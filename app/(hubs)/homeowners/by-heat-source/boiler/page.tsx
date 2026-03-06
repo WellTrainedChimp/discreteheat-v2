@@ -12,7 +12,10 @@ export const metadata = {
     description: 'Upgrade your gas or oil boiler heating system. ThermaSkirt connects directly to your existing radiator pipes, delivering fast, even radiant heat without the wall clutter. Up to 20% lower gas bills.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-heat-source/boiler/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=bb14a53a-1b33-4363-b89a-56d430274cfa', width: 1200, height: 630, alt: 'Boiler Compatible Skirting Board Heating | ThermaSkirt' }],
+    },
 };
 
 export default function BoilerPage() {
@@ -27,7 +30,7 @@ export default function BoilerPage() {
                     description="ThermaSkirt connects directly to your existing central heating boiler—gas combi, system boiler, or oil-fired unit. It drops straight onto your existing 15mm or 10mm pipework using standard compression fittings, instantly modernising your home's heating without complex re-piping or disruption."
                     primaryCta={{ text: "Get a System Quote", href: "/homeowners/get-a-quote" }}
                     secondaryCta={{ text: "How Much Does It Cost?", href: "/homeowners/cost-guide" }}
-                    imageSrc="/assets/images/homeowner-boiler.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=bb14a53a-1b33-4363-b89a-56d430274cfa"
                     imageAlt="A beautifully modernised living space heated by a boiler-connected ThermaSkirt system"
                 />
 

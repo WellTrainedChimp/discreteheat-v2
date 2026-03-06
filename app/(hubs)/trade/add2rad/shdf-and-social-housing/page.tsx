@@ -5,6 +5,9 @@ import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 export const metadata = {
     title: 'SHDF & Social Housing | DiscreteHeat Trade',
     description: 'Providing low-disruption, scalable heat pump retrofits for local authorities, housing associations, and SHDF-funded projects using Add2Rad.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=988cff79-37a3-45fa-9a3d-aef77c978702', width: 1200, height: 630, alt: 'SHDF & Social Housing | DiscreteHeat Trade' }],
+    },
 };
 
 const internalLinks = [
@@ -12,13 +15,13 @@ const internalLinks = [
         title: "Quoting for Add2Rad",
         description: "Submit room dimensions via the portal for a fully quantified component estimate.",
         href: "/trade/add2rad/quoting-for-add2rad",
-        image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=c699edc3-f10e-40fc-89ba-c936d1a1f75d",
     },
     {
         title: "Social Housing Applications",
         description: "View case studies of whole-estate ThermaSkirt retrofits.",
         href: "/specifiers/applications/social-housing",
-        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=988cff79-37a3-45fa-9a3d-aef77c978702",
     }
 ];
 
@@ -29,7 +32,7 @@ export default function SocialHousingAdd2RadPage() {
                 title="SHDF & Social Housing"
                 badge="Estate Decarbonisation"
                 description="The Add2Rad system provides local authorities and housing associations with a viable, low-disruption path for mass heat pump deployment across tenanted housing stock."
-                imageSrc="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=988cff79-37a3-45fa-9a3d-aef77c978702"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">

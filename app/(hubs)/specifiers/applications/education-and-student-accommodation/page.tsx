@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Safe surface temperatures, anti-tamper, and space-efficient heating for schools, classrooms, and student accommodation blocks.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/applications/education-and-student-accommodation/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=63461923-ef3c-40b7-a255-7830718fd27e', width: 1200, height: 630, alt: 'Education & Student Accommodation Heating | Specifiers' }],
+    },
 };
 
 const otherSectors = [
@@ -30,7 +33,7 @@ export default function EducationStudentAccomPage() {
                     titleHighlight="anti-tamper."
                     description="Designed for high-traffic environments. Schools require safe, LST heating that prevents impact injuries. PBSA (Student Accommodation) requires robust, anti-tamper systems that maximise compact footprints."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/specifier-education.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=63461923-ef3c-40b7-a255-7830718fd27e"
                     imageAlt="ThermaSkirt installed in a modern university student accommodation bedroom"
                 />
 

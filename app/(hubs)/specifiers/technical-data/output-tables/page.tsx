@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Comprehensive heat output tables (Watts per Metre) for all ThermaSkirt profiles across dT50 to dT20 flow temperatures.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/technical-data/output-tables/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=836fb6eb-25b2-4df8-8fad-f9f30890bc84', width: 1200, height: 630, alt: 'Output Tables | Technical Data | ThermaSkirt' }],
+    },
 };
 
 const otherData = [
@@ -29,7 +32,7 @@ export default function OutputTablesPage() {
                     titleHighlight="output data."
                     description="Accurate room-by-room heating design requires precise linear output data across a spectrum of flow and return temperatures."
                     primaryCta={{ text: "Download Full Data Sheets", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-outputs.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=836fb6eb-25b2-4df8-8fad-f9f30890bc84"
                     imageAlt="ThermaSkirt BM2 profile installed, showing the continuous linear heating nature of the product."
                 />
 

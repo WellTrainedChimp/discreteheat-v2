@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Technical guidance for flushing, cleansing, and dosing ThermaSkirt aluminium heating systems in accordance with BS 7593 standards.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/technical-data/water-treatment-protocol/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=abdc169e-0427-4305-93a7-31a1515d57ac', width: 1200, height: 630, alt: 'Water Treatment & Dosing Protocol | ThermaSkirt' }],
+    },
 };
 
 const otherData = [
@@ -29,7 +32,7 @@ export default function WaterTreatmentPage() {
                     titleHighlight="Water Treatment."
                     description="As an advanced aluminium heat emitter, establishing and maintaining the correct system water chemistry is absolutely critical to ensuring the longevity and performance of the ThermaSkirt system."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-water-treatment.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=abdc169e-0427-4305-93a7-31a1515d57ac"
                     imageAlt="A heating engineer testing the water chemistry of a freshly dosed central heating system"
                 />
 

@@ -5,6 +5,9 @@ import { Building2, PackageCheck, HeadphonesIcon } from 'lucide-react';
 export const metadata = {
     title: 'Open a Trade Account | DiscreteHeat',
     description: 'Apply for a DiscreteHeat wholesale trade account for preferential pricing, 30-day terms, and dedicated account support.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=94a221fb-c3e2-4ea5-8e49-ab0b223dba6b', width: 1200, height: 630, alt: 'Open a Trade Account | DiscreteHeat' }],
+    },
 };
 
 const internalLinks = [
@@ -12,13 +15,13 @@ const internalLinks = [
         title: "Marketing Materials",
         description: "Request POS displays, counter POS, brochures, and digital assets.",
         href: "/trade/merchants/marketing-materials",
-        image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=6a652cac-0afb-459f-b8e3-82b3b5fa4ff0",
     },
     {
         title: "Supplier & OEM Enquiries",
         description: "Information for heat pump manufacturers and national merchants.",
         href: "/trade/add2rad/supplier-and-oem-enquiries",
-        image: "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=4998bad3-94eb-4715-8c47-7ae30f4fb3eb",
     }
 ];
 
@@ -29,7 +32,7 @@ export default function OpenTradeAccountPage() {
                 title="Open a Trade Account"
                 badge="Wholesale Partners"
                 description="Access deep trade discounts, 30-day credit terms, and direct online ordering for all ThermaSkirt systems and components."
-                imageSrc="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=94a221fb-c3e2-4ea5-8e49-ab0b223dba6b"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">

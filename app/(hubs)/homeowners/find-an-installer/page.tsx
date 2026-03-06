@@ -8,7 +8,10 @@ export const metadata = {
     description: 'Locate a factory-trained, registered ThermaSkirt plumbing and heating engineer in your local area to install your new skirting board heating system.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/find-an-installer/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=c8ef6e5f-6676-4063-8100-20443ecc05f8', width: 1200, height: 630, alt: 'Find a Registered ThermaSkirt Installer | DiscreteHeat' }],
+    },
 };
 
 export default function FindInstallerPage() {
@@ -22,7 +25,7 @@ export default function FindInstallerPage() {
                     titleHighlight="nationwide."
                     description="While ThermaSkirt is designed to be fitted by any competent plumber or heating engineer, we maintain a vast UK network of Registered Installers who have completed our dedicated factory training. Find a local expert who knows the system inside out."
                     primaryCta={{ text: "Get an Itemised Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-installer.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=c8ef6e5f-6676-4063-8100-20443ecc05f8"
                     imageAlt="A professional plumber installing a ThermaSkirt corner joint"
                 />
 

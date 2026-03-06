@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Heritage-sensitive skirting board heating for listed buildings and conservation projects. Preserves original proportions without invasive pipework channels.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/applications/listed-buildings/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=2a3a5535-6119-4b26-b66f-263eecc7eb5a', width: 1200, height: 630, alt: 'Listed Building Heating Solutions | Specifiers' }],
+    },
 };
 
 const otherSectors = [
@@ -30,7 +33,7 @@ export default function ListedBuildingsPage() {
                     titleHighlight="warmth."
                     description="Securing listed building consent for heating upgrades is notoriously complex. ThermaSkirt provides modern, efficient heating while preserving architectural sightlines and avoiding invasive floor works."
                     primaryCta={{ text: "Speak to Spec Team", href: "/about/contact" }}
-                    imageSrc="/assets/images/specifier-listed.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=2a3a5535-6119-4b26-b66f-263eecc7eb5a"
                     imageAlt="ThermaSkirt classic profile installed in a period property with decorative moulding"
                 />
 

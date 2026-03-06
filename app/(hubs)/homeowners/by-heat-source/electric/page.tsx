@@ -12,7 +12,10 @@ export const metadata = {
     description: 'ThermaSkirt-e: 240V hard-wired radiant electric heating with zero plumbing. Perfect for apartments, garden rooms, loft conversions, and off-grid homes. Pairs with solar PV and battery storage.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-heat-source/electric/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=6492a852-f98b-49da-9b83-8444d5935067', width: 1200, height: 630, alt: 'Electric Skirting Board Heating | ThermaSkirt-e' }],
+    },
 };
 
 export default function ElectricPage() {
@@ -27,7 +30,7 @@ export default function ElectricPage() {
                     description="ThermaSkirt-e is the electric version of our skirting board heating system. It provides all the space-saving, radiant comfort of the wet system, but installs in hours via a standard 240V fused spur—no plumbing, no boiler, no pipework. Ideal for apartments, loft conversions, garden rooms, and homes without gas."
                     primaryCta={{ text: "Get an Electric Quote", href: "/homeowners/get-a-quote" }}
                     secondaryCta={{ text: "How Much Does It Cost?", href: "/homeowners/cost-guide" }}
-                    imageSrc="/assets/images/homeowner-electric.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=6492a852-f98b-49da-9b83-8444d5935067"
                     imageAlt="A sleek modern garden room heated by Electric ThermaSkirt-e"
                 />
 

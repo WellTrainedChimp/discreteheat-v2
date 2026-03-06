@@ -5,6 +5,9 @@ import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 export const metadata = {
     title: 'Trade Video Library | DiscreteHeat',
     description: 'Instructional videos for plumbers covering ThermaSkirt installation, corner cutting, and manifold balancing.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=14e646d1-52e3-4d30-ad5d-6ebbd9fb1bb1', width: 1200, height: 630, alt: 'Trade Video Library | DiscreteHeat' }],
+    },
 };
 
 const internalLinks = [
@@ -12,13 +15,13 @@ const internalLinks = [
         title: "Installation Instructions",
         description: "Step-by-step PDF manuals for all ThermaSkirt profiles.",
         href: "/trade/resources/installation-instructions",
-        image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1",
     },
     {
         title: "Troubleshooting & FAQs",
         description: "Quick fixes for common site queries: flow rates, balancing, and paint finishing.",
         href: "/trade/resources/troubleshooting-and-faqs",
-        image: "https://images.unsplash.com/photo-1620608569766-41fcefd2ab26?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=418c5992-0141-4ec8-a119-7161f64e7909",
     }
 ];
 
@@ -29,7 +32,7 @@ export default function VideoLibraryPage() {
                 title="Video Library"
                 badge="Site Tutorials"
                 description="Watch our technical team demonstrate best-practice installation techniques. Perfect for brushing up on skills before arriving on site."
-                imageSrc="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=14e646d1-52e3-4d30-ad5d-6ebbd9fb1bb1"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">
@@ -44,7 +47,7 @@ export default function VideoLibraryPage() {
                         {/* Video Card 1 */}
                         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow group">
                             <div className="aspect-video bg-dh-grey-light relative">
-                                <Image src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&q=80&w=600" alt="Room Preparation" fill className="object-cover" />
+                                <Image src="https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1" alt="Room Preparation" fill className="object-cover" />
                                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors flex items-center justify-center">
                                     <div className="w-12 h-12 bg-dh-red/90 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
                                         <svg className="w-5 h-5 text-white ml-1" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" /></svg>
@@ -61,7 +64,7 @@ export default function VideoLibraryPage() {
                         {/* Video Card 2 */}
                         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow group">
                             <div className="aspect-video bg-dh-grey-light relative">
-                                <Image src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=600" alt="Cutting Profiles" fill className="object-cover" />
+                                <Image src="https://www.discreteheat.com/MediaHandler.ashx?id=c17fc98f-1d55-491b-9638-72b32eda1d20" alt="Cutting Profiles" fill className="object-cover" />
                                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors flex items-center justify-center">
                                     <div className="w-12 h-12 bg-dh-red/90 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
                                         <svg className="w-5 h-5 text-white ml-1" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" /></svg>
@@ -78,7 +81,7 @@ export default function VideoLibraryPage() {
                         {/* Video Card 3 */}
                         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow group">
                             <div className="aspect-video bg-dh-grey-light relative">
-                                <Image src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&q=80&w=600" alt="Push fit connect" fill className="object-cover" />
+                                <Image src="https://www.discreteheat.com/MediaHandler.ashx?id=c287107e-ac14-4abc-b282-8676388df56c" alt="Push fit connect" fill className="object-cover" />
                                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors flex items-center justify-center">
                                     <div className="w-12 h-12 bg-dh-red/90 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:scale-110 transition-transform">
                                         <svg className="w-5 h-5 text-white ml-1" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" /></svg>

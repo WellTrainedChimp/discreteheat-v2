@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Hydronic radiant skirting board heating. Highly responsive, low water content emitter designed for 35–75°C flow temperatures. BSRIA tested to BS EN 442-1.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/products/thermaskirt-h2o/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=c287107e-ac14-4abc-b282-8676388df56c', width: 1200, height: 630, alt: 'ThermaSkirt H2O | Specifier Products' }],
+    },
 };
 
 const otherProducts = [
@@ -30,7 +33,7 @@ export default function ThermaSkirtH2OPage() {
                     titleHighlight="hydronics."
                     description="The H₂O profile is our core radiant emitter. Operating with incredibly low water content, it provides rapid response times and exceptional output retention at low flow temperatures, perfect for PAS 2035 heat pump retrofits."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/product-h2o.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=c287107e-ac14-4abc-b282-8676388df56c"
                     imageAlt="ThermaSkirt H2O BM2 profile showing the internal pipework channels"
                 />
 

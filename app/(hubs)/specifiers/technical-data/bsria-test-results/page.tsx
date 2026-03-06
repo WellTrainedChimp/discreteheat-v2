@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Independent structural and thermal testing by BSRIA to BS EN 442-1 standards, validating heat output and pressure resistance of ThermaSkirt profiles.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/technical-data/bsria-test-results/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=16027df0-9209-4f6f-b0e6-87a7e41c8875', width: 1200, height: 630, alt: 'BSRIA Test Results | Technical Data | ThermaSkirt' }],
+    },
 };
 
 const otherData = [
@@ -29,7 +32,7 @@ export default function BSRIAReportPage() {
                     titleHighlight="Testing."
                     description="The Building Services Research and Information Association (BSRIA) has comprehensively tested ThermaSkirt profiles to certify their thermal output and structural integrity."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-bsria.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=16027df0-9209-4f6f-b0e6-87a7e41c8875"
                     imageAlt="ThermaSkirt being tested in a controlled BSRIA thermal laboratory environment"
                 />
 

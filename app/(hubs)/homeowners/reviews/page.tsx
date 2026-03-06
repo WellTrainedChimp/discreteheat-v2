@@ -7,7 +7,10 @@ export const metadata = {
     description: 'Read reviews and testimonials from UK homeowners who have transformed their properties with ThermaSkirt heating. See real-world installations and energy saving results.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/reviews/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=5a2266bd-bacb-4528-a4eb-c20979dbf9ab', width: 1200, height: 630, alt: 'ThermaSkirt Reviews | Customer Case Studies' }],
+    },
 };
 
 export default function ReviewsPage() {
@@ -21,7 +24,7 @@ export default function ReviewsPage() {
                     titleHighlight="radiant results."
                     description="Don't just take our word for it. Discover how thousands of homeowners across the UK have solved their heating problems, reclaimed their wall space, and lowered their energy bills by switching from radiators to ThermaSkirt."
                     primaryCta={{ text: "Join Them - Get a Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-reviews.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=5a2266bd-bacb-4528-a4eb-c20979dbf9ab"
                     imageAlt="A happy homeowner sitting comfortably in their newly heated ThermaSkirt living room"
                 />
 

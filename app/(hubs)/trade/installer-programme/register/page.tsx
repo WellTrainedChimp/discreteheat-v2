@@ -6,6 +6,9 @@ import { CheckCircle2, ShieldCheck, Zap, HardHat } from 'lucide-react';
 export const metadata = {
     title: 'Register as an Installer | DiscreteHeat',
     description: 'Apply to become a DiscreteHeat registered installer to receive local leads and trade benefits.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=8e875883-9f9d-468d-9c61-d3da58e23f5f', width: 1200, height: 630, alt: 'Register as an Installer | DiscreteHeat' }],
+    },
 };
 
 const internalLinks = [
@@ -13,19 +16,19 @@ const internalLinks = [
         title: "Benefits & Rewards",
         description: "Earn points on every metre installed. Unlock branded uniform, tools, and priority support.",
         href: "/trade/installer-programme/benefits",
-        image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=d935984b-a5c8-431f-af3f-eeb2a19f4b66",
     },
     {
         title: "Lead Referral System",
         description: "How we distribute pre-qualified enquiries to active installers in their local postcode area.",
         href: "/trade/installer-programme/lead-referral",
-        image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=660596bd-ec1d-411c-91c5-bd0746641217",
     },
     {
         title: "Training Academy",
         description: "Book an in-person session at our Manchester HQ or complete our online certification.",
         href: "/trade/installer-programme/training",
-        image: "https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=cff4020d-4eb2-4e07-b11a-9dedea2de221",
     }
 ];
 
@@ -36,7 +39,7 @@ export default function RegisterInstallerPage() {
                 title="Register as an Installer"
                 badge="Join the Network"
                 description="Sign up to become a certified ThermaSkirt installation partner. Secure your local territory and start receiving direct homeowner leads."
-                imageSrc="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=8e875883-9f9d-468d-9c61-d3da58e23f5f"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white">

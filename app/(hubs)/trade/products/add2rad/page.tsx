@@ -4,6 +4,9 @@ import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 export const metadata = {
     title: 'Trade Add2Rad Module | DiscreteHeat',
     description: 'Provide low-temperature, high-volume skirting heating alongside existing radiators for heat pump retrofits without complete pipework overhauls.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=9567dbe1-3e38-4b02-abff-ef9cd35115ef', width: 1200, height: 630, alt: 'Trade Add2Rad Module | DiscreteHeat' }],
+    },
 };
 
 const internalLinks = [
@@ -11,19 +14,19 @@ const internalLinks = [
         title: "The Add2Rad Method",
         description: "How to use ThermaSkirt to reduce flow temperatures without changing pipework.",
         href: "/trade/add2rad/the-method",
-        image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=78462530-72ea-4156-bae5-ed617dd9d65f",
     },
     {
         title: "Flow Temp Calculator",
         description: "Calculate expected flow temperatures before and after adding Add2Rad.",
         href: "/trade/add2rad/flow-temperature-calculator",
-        image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=16027df0-9209-4f6f-b0e6-87a7e41c8875",
     },
     {
         title: "Heat Pump Installer Guide",
         description: "Technical instructions for adding the module in series with radiators.",
         href: "/trade/add2rad/heat-pump-installer-guide",
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=a9380b91-7438-4ba0-b0b6-a365a4bcd925",
     }
 ];
 
@@ -34,7 +37,7 @@ export default function TradeAdd2RadPage() {
                 title="Add2Rad Overview"
                 badge="The Heat Pump Retrofit Module"
                 description="The Add2Rad module allows installers to increase the surface area of a room's heat emitter by plugging ThermaSkirt directly into the existing radiator tails to run in series."
-                imageSrc="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=9567dbe1-3e38-4b02-abff-ef9cd35115ef"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">

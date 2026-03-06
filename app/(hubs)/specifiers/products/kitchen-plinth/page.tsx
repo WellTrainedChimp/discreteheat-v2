@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Hydronic radiant plinth heater. Mounts directly beneath kitchen cabinets, connecting into the wet central heating system to free up wall space for units.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/products/kitchen-plinth/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=79fbd528-59ea-40ff-b6ae-ac68a6ebfaab', width: 1200, height: 630, alt: 'Kitchen Plinth Heating | Specifier Products' }],
+    },
 };
 
 const otherProducts = [
@@ -30,7 +33,7 @@ export default function KitchenPlinthPage() {
                     titleHighlight="warmth."
                     description="Modern kitchen design prioritizes continuous cabinet runs and large islands, leaving zero space for wall radiators. The ThermaSkirt kitchen plinth profile transforms the dead space beneath cabinetry into an active radiant emitter."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/product-kitchen.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=79fbd528-59ea-40ff-b6ae-ac68a6ebfaab"
                     imageAlt="ThermaSkirt kitchen plinth profile installed under modern matte-finish cabinetry"
                 />
 

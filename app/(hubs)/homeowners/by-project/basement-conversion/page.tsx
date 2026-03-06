@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Transform damp cellars into warm, usable spaces. ThermaSkirt provides instant radiant heat without piercing expensive basement tanking membranes.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-project/basement-conversion/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=7851770d-a31c-4ad9-bdfa-9c102d2d3b39', width: 1200, height: 630, alt: 'Basement Conversion Heating | ThermaSkirt' }],
+    },
 };
 
 export default function BasementConversionPage() {
@@ -23,7 +26,7 @@ export default function BasementConversionPage() {
                     titleHighlight="warm sanctuaries."
                     description="Converting a damp underground basement into a cinema room or gym presents massive waterproofing challenges. Installing underfloor heating often risks piercing vital damp-proof membranes. ThermaSkirt provides totally isolated, above-ground perimeter heating."
                     primaryCta={{ text: "Get a Room Quote", href: "/homeowners/get-a-quote" }}
-                    imageSrc="/assets/images/homeowner-basement.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=7851770d-a31c-4ad9-bdfa-9c102d2d3b39"
                     imageAlt="A luxury subterranean living room heated silently with ThermaSkirt"
                 />
 

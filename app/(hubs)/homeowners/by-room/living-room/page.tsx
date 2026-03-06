@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import SubHubHero from '@/components/server/SubHubHero';
 import FAQText from '@/components/server/FAQText';
 import CTABanner from '@/components/blocks/CTABanner';
@@ -12,7 +13,10 @@ export const metadata = {
     description: 'Reclaim your living room walls with ThermaSkirt. Gentle, invisible radiant heating that replaces bulky radiators and frees up space for furniture and design.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-room/living-room/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=2a3a5535-6119-4b26-b66f-263eecc7eb5a', width: 1200, height: 630, alt: 'Living Room Skirting Board Heating | ThermaSkirt' }],
+    },
 };
 
 export default function LivingRoomPage() {
@@ -27,7 +31,7 @@ export default function LivingRoomPage() {
                     description="The living room should centre around living, not heating. ThermaSkirt replaces bulky radiators with a sleek skirting board profile, freeing up uninterrupted wall space for sofas, media units, and artwork."
                     primaryCta={{ text: "Get a Room Quote", href: "/homeowners/get-a-quote" }}
                     secondaryCta={{ text: "View Cost Guide", href: "/homeowners/cost-guide" }}
-                    imageSrc="/assets/images/homeowner-living-room.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=2a3a5535-6119-4b26-b66f-263eecc7eb5a"
                     imageAlt="Family relaxing in a warm living room heated by ThermaSkirt"
                 />
 
@@ -59,10 +63,10 @@ export default function LivingRoomPage() {
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-16">
                             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-dh-grey-light border border-dh-grey-light/50">
-                                <div className="absolute inset-0 flex items-center justify-center text-dh-grey">Room Image 1</div>
+                                <Image src="https://www.discreteheat.com/MediaHandler.ashx?id=78462530-72ea-4156-bae5-ed617dd9d65f" alt="ThermaSkirt installed in a living room, replacing traditional radiators" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
                             </div>
                             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-dh-grey-light border border-dh-grey-light/50">
-                                <div className="absolute inset-0 flex items-center justify-center text-dh-grey">Room Image 2</div>
+                                <Image src="https://www.discreteheat.com/MediaHandler.ashx?id=8cb0352d-d5ee-4223-aa23-58dbe93da37d" alt="Thermal imaging showing even heat distribution from ThermaSkirt" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
                             </div>
                         </div>
 
@@ -159,12 +163,12 @@ export default function LivingRoomPage() {
                     heading="Explore ThermaSkirt by Room"
                     description="See how ThermaSkirt transforms every space in your home."
                     tiles={[
-                        { title: "Bedroom", description: "Silent, space-saving warmth for a better night's sleep.", href: "/homeowners/by-room/bedroom" },
-                        { title: "Kitchen", description: "Plinth heating that frees up every cabinet.", href: "/homeowners/by-room/kitchen" },
-                        { title: "Home Office", description: "Consistent warmth, zero distractions.", href: "/homeowners/by-room/home-office" },
-                        { title: "Open Plan", description: "Even comfort across large, connected spaces.", href: "/homeowners/by-room/open-plan" },
-                        { title: "Garden Room", description: "Year-round comfort in compact spaces.", href: "/homeowners/by-room/garden-room" },
-                        { title: "Bathroom", description: "Warm tiles, no damp, no rust.", href: "/homeowners/by-room/bathroom" },
+                        { title: "Bedroom", description: "Silent, space-saving warmth for a better night's sleep.", href: "/homeowners/by-room/bedroom", image: "https://www.discreteheat.com/MediaHandler.ashx?id=9d650245-84b3-433b-bc74-32223612fdfe" },
+                        { title: "Kitchen", description: "Plinth heating that frees up every cabinet.", href: "/homeowners/by-room/kitchen", image: "https://www.discreteheat.com/MediaHandler.ashx?id=8ffc200d-e646-42a6-bbec-d15ca4a01240" },
+                        { title: "Home Office", description: "Consistent warmth, zero distractions.", href: "/homeowners/by-room/home-office", image: "https://www.discreteheat.com/MediaHandler.ashx?id=1b9a575e-60f1-4319-8c68-aeb033ff130a" },
+                        { title: "Open Plan", description: "Even comfort across large, connected spaces.", href: "/homeowners/by-room/open-plan", image: "https://www.discreteheat.com/MediaHandler.ashx?id=89b3f691-9bbc-4268-941a-8ba213267301" },
+                        { title: "Garden Room", description: "Year-round comfort in compact spaces.", href: "/homeowners/by-room/garden-room", image: "https://www.discreteheat.com/MediaHandler.ashx?id=ae52252a-9018-4898-bea9-51eb467c72f3" },
+                        { title: "Bathroom", description: "Warm tiles, no damp, no rust.", href: "/homeowners/by-room/bathroom", image: "https://www.discreteheat.com/MediaHandler.ashx?id=70ce7e2a-6d6e-45c4-ab90-7d0cbaab64c8" },
                     ]}
                 />
 

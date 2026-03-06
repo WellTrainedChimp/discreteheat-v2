@@ -8,7 +8,10 @@ export const metadata = {
     description: 'ThermaSkirt works with every heating system — gas boilers, heat pumps, oil boilers, biomass, electric, and solar PV. Find the right configuration for your home.',
     alternates: {
         canonical: 'https://www.discreteheat.com/homeowners/by-heat-source/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=c287107e-ac14-4abc-b282-8676388df56c', width: 1200, height: 630, alt: 'Heating by Heat Source | ThermaSkirt Skirting Board Heating' }],
+    },
 };
 
 export default function ByHeatSourceSubHub() {

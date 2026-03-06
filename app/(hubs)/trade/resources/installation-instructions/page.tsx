@@ -4,6 +4,9 @@ import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 export const metadata = {
     title: 'Installation Instructions | DiscreteHeat Trade',
     description: 'Download PDF installation manuals for ThermaSkirt H2O, Electric, Add2Rad, and manifolds.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1', width: 1200, height: 630, alt: 'Installation Instructions | DiscreteHeat Trade' }],
+    },
 };
 
 const internalLinks = [
@@ -11,13 +14,13 @@ const internalLinks = [
         title: "Video Library",
         description: "Watch our master installers demonstrate corner cutting and manifold plumbing.",
         href: "/trade/resources/video-library",
-        image: "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=14e646d1-52e3-4d30-ad5d-6ebbd9fb1bb1",
     },
     {
         title: "Technical Data Sheets",
         description: "Dimensioned drawings, component specifications, and CIBSE output tables.",
         href: "/trade/resources/technical-data-sheets",
-        image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=16027df0-9209-4f6f-b0e6-87a7e41c8875",
     }
 ];
 
@@ -28,7 +31,7 @@ export default function InstallationInstructionsPage() {
                 title="Installation Instructions"
                 badge="Technical Manuals"
                 description="Download our comprehensive, step-by-step PDF guides covering the cutting, fitting, plumbing, and testing of all ThermaSkirt systems."
-                imageSrc="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">

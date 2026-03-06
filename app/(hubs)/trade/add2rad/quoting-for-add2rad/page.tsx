@@ -5,6 +5,9 @@ import { ClipboardList, Calculator, PhoneCall } from 'lucide-react';
 export const metadata = {
     title: 'Quoting for Add2Rad | DiscreteHeat Trade',
     description: 'Submit your project details via our portal to receive a fully quantified estimate for ThermaSkirt Add2Rad components.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=c699edc3-f10e-40fc-89ba-c936d1a1f75d', width: 1200, height: 630, alt: 'Quoting for Add2Rad | DiscreteHeat Trade' }],
+    },
 };
 
 const internalLinks = [
@@ -12,13 +15,13 @@ const internalLinks = [
         title: "Flow Temp Calculator",
         description: "Calculate expected flow temperatures before and after adding Add2Rad.",
         href: "/trade/add2rad/flow-temperature-calculator",
-        image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=16027df0-9209-4f6f-b0e6-87a7e41c8875",
     },
     {
         title: "Technical Data Sheets",
         description: "Download dimensioned drawings of the Trv Bypass block.",
         href: "/trade/resources/technical-data-sheets",
-        image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=16027df0-9209-4f6f-b0e6-87a7e41c8875",
     }
 ];
 
@@ -29,7 +32,7 @@ export default function QuotingForAdd2RadPage() {
                 title="Quoting for Add2Rad"
                 badge="Project Estimation"
                 description="We take the guesswork out of ordering lengths, trims, and specialist TRV blocks. Submit your room dimensions and existing radiator specs to our technical team for a guaranteed parts list."
-                imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=c699edc3-f10e-40fc-89ba-c936d1a1f75d"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">

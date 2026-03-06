@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Analyzing the physics of ThermaSkirt radiant skirting when operating at low flow temperatures alongside Air Source Heat Pumps (ASHPs).',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/technical-data/low-temperature-performance/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=8cb0352d-d5ee-4223-aa23-58dbe93da37d', width: 1200, height: 630, alt: 'Low Temperature Heating Performance | Technical Data | ThermaSkirt' }],
+    },
 };
 
 const otherData = [
@@ -29,7 +32,7 @@ export default function LowTempPerformancePage() {
                     titleHighlight="flow temperatures."
                     description="Heat pumps are only efficient if the emitter circuit allows them to run cold. ThermaSkirt\'s expansive surface area and convective resistance unlocks the true CoP of modern Air Source Heat Pumps."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-low-temp.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=8cb0352d-d5ee-4223-aa23-58dbe93da37d"
                     imageAlt="Thermal imaging graphic demonstrating uniform heat distribution at low flow temperatures"
                 />
 

@@ -9,7 +9,10 @@ export const metadata = {
     description: 'Technical comparison between radiant heat transfer and convective air movement in domestic and commercial heating environments.',
     alternates: {
         canonical: 'https://www.discreteheat.com/specifiers/technical-data/radiant-heat-science/',
-    }
+    },
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=32e0462c-c8f0-4f1c-9904-7127a20b3bf1', width: 1200, height: 630, alt: 'Science of Radiant Heat vs Convection | ThermaSkirt' }],
+    },
 };
 
 const otherData = [
@@ -29,7 +32,7 @@ export default function RadiantHeatSciencePage() {
                     titleHighlight="convective airflow."
                     description="Understanding the fundamental difference between heating the solid mass of a room (radiant) versus heating the air inside it (convection) is critical to specifying modern, efficient emitter systems."
                     primaryCta={{ text: "Download Specifier Pack", href: "/specifiers/specification-support/design-service" }}
-                    imageSrc="/assets/images/technical-radiant.jpg"
+                    imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=32e0462c-c8f0-4f1c-9904-7127a20b3bf1"
                     imageAlt="Abstract rendering of infrared thermal waves propagating from a low-level profile through a room"
                 />
 

@@ -4,6 +4,9 @@ import ExploreCategorySection from '@/components/blocks/ExploreCategorySection';
 export const metadata = {
     title: 'Troubleshooting & FAQs | DiscreteHeat Trade',
     description: 'Technical troubleshooting guides covering flow issues, balancing manifolds, heating up times, and noise resolution for ThermaSkirt systems.',
+    openGraph: {
+        images: [{ url: 'https://www.discreteheat.com/MediaHandler.ashx?id=418c5992-0141-4ec8-a119-7161f64e7909', width: 1200, height: 630, alt: 'Troubleshooting & FAQs | DiscreteHeat Trade' }],
+    },
 };
 
 const internalLinks = [
@@ -11,13 +14,13 @@ const internalLinks = [
         title: "Installation Instructions",
         description: "Review exact fitting requirements.",
         href: "/trade/resources/installation-instructions",
-        image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1",
     },
     {
         title: "Video Library",
         description: "Watch visual guides on balancing and bleeding.",
         href: "/trade/resources/video-library",
-        image: "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&q=80&w=1080",
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=14e646d1-52e3-4d30-ad5d-6ebbd9fb1bb1",
     }
 ];
 
@@ -28,7 +31,7 @@ export default function TroubleshootingPage() {
                 title="Troubleshooting & FAQs"
                 badge="Technical Support"
                 description="Before calling technical support from site, check our database of common queries, balancing issues, and their rapid solutions."
-                imageSrc="https://images.unsplash.com/photo-1620608569766-41fcefd2ab26?auto=format&fit=crop&q=80&w=1920"
+                imageSrc="https://www.discreteheat.com/MediaHandler.ashx?id=418c5992-0141-4ec8-a119-7161f64e7909"
             />
 
             <section className="py-24 px-6 lg:px-12 bg-white selection:bg-dh-red/20 selection:text-dh-red">
