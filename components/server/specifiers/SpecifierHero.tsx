@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function SpecifierHero() {
     return (
@@ -9,12 +10,13 @@ export default function SpecifierHero() {
                     className="absolute inset-0 z-10"
                     style={{ background: 'linear-gradient(to right, rgba(26,26,26,0.95) 0%, rgba(26,26,26,0.8) 40%, rgba(26,26,26,0.4) 100%)' }}
                 />
-                {/* Fallback image if we don't have a video */}
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                    src="https://images.unsplash.com/photo-1541888086968-0eb905b769ea?auto=format&fit=crop&q=80&w=2000"
-                    alt="Architectural Blueprint and Thermal Imaging"
-                    className="absolute inset-0 w-full h-full object-cover filter grayscale contrast-125 opacity-40"
+                <Image
+                    src="https://www.discreteheat.com/MediaHandler.ashx?id=380e1751-3e9a-4238-ac00-16080ec24469"
+                    alt="Energy House 2.0 exterior — Barratt Developments Future Home Standard case study"
+                    fill
+                    sizes="100vw"
+                    priority
+                    className="object-cover filter grayscale contrast-125 opacity-40"
                 />
             </div>
 

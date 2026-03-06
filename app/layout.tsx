@@ -12,10 +12,24 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.discreteheat.com"),
   title: "ThermaSkirt Home | DiscreteHeat",
   description: "UK manufacturer of ThermaSkirt skirting board heating systems. Over 85,000 systems installed across residential, social housing, healthcare, and commercial applications.",
   alternates: {
     canonical: "https://www.discreteheat.com",
+  },
+  openGraph: {
+    images: [
+      {
+        url: "https://www.discreteheat.com/MediaHandler.ashx?id=c287107e-ac14-4abc-b282-8676388df56c",
+        width: 1200,
+        height: 630,
+        alt: "ThermaSkirt skirting board heating by DiscreteHeat",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
   },
 };
 

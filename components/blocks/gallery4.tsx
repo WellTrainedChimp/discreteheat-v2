@@ -2,6 +2,7 @@
 
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { useEffect, useState } from "react";
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { Button } from "@/components/ui/button";
@@ -32,28 +33,28 @@ const data = [
         title: "ThermaSkirt H2O",
         description: "Our core hydronic skirting board heating system. Designed to work flawlessly with your existing boiler or a new low-temperature heat pump.",
         href: "/homeowners/products/thermaskirt-h2o",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=35bab5ca-1acb-49be-bc55-df357606b0b5"
     },
     {
         id: "electric",
         title: "ThermaSkirt e",
         description: "The direct electric alternative. Perfect for apartments, retrofits, or extensions without access to wet system pipework.",
         href: "/homeowners/products/thermaskirt-e",
-        image: "https://images.unsplash.com/photo-1628177142898-93e46e494a79?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=7f158087-624d-44eb-8ab7-1c885002c85f"
     },
     {
         id: "lst",
         title: "EasyClean LST",
         description: "Low Surface Temperature profile designed exclusively for healthcare, care homes, and social housing. Anti-ligature and easily washable.",
         href: "/homeowners/products/easyclean",
-        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=9a7b40c8-0245-4d26-a04d-72304b92a02f"
     },
     {
         id: "curve",
         title: "ThermaCurve",
         description: "Bespoke radiused sections to perfectly match bay windows and architectural curves without breaking the continuous thermal envelope.",
         href: "/homeowners/products/thermacurve",
-        image: "https://images.unsplash.com/photo-1600607688969-a5bfcd64bd40?auto=format&fit=crop&q=80&w=1080"
+        image: "https://www.discreteheat.com/MediaHandler.ashx?id=4e57c3f4-83d4-4914-a6bf-28d31595bad1"
     },
 ];
 
@@ -140,11 +141,12 @@ export const Gallery4 = ({
                             >
                                 <Link href={item.href} className="group rounded-[16px] block h-full focus-visible:outline-dh-red focus-visible:ring-2 focus-visible:ring-offset-4">
                                     <div className="group relative h-full min-h-[500px] w-full overflow-hidden rounded-[16px] border border-black/5 shadow-[0_8px_30px_rgba(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgba(210,35,42,0.1)] transition-all duration-500">
-                                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                                        <img
+                                        <Image
                                             src={item.image}
                                             alt={item.title}
-                                            className="absolute h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
+                                            fill
+                                            sizes="(max-width: 768px) 320px, 380px"
+                                            className="object-cover object-center transition-transform duration-700 group-hover:scale-110"
                                         />
                                         <div className="absolute inset-0 h-full bg-gradient-to-t from-black/90 via-black/40 to-black/10" />
                                         <div className="absolute inset-x-0 bottom-0 flex flex-col items-start p-6 text-white md:p-8">
