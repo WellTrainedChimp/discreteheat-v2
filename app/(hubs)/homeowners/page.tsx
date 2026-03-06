@@ -35,10 +35,10 @@ export default function HomeownersHub() {
                     description="Whether you're switching to a heat pump, keeping your boiler, or going fully electric — ThermaSkirt is engineered to deliver maximum comfort at any flow temperature."
                     tiles={[
                         { title: 'Heat Pump', description: 'Optimised for low-temperature systems from 35°C.', href: '/homeowners/by-heat-source/heat-pump' },
-                        { title: 'Gas Boiler', description: 'Works with your existing system, no changes needed.', href: '/homeowners/by-heat-source/gas-boiler' },
-                        { title: 'Oil Boiler', description: 'Compatible with any oil-fired wet heating system.', href: '/homeowners/by-heat-source/oil-boiler' },
-                        { title: 'Direct Electric', description: 'ThermaSkirt-e: no pipework, no plumber required.', href: '/homeowners/by-heat-source/electric-only' },
-                        { title: 'Solar PV & Battery', description: 'Maximise self-consumption with smart electric heating.', href: '/homeowners/by-heat-source/solar-pv-and-battery' },
+                        { title: 'Boiler', description: 'Works with your existing gas or oil system, no changes needed.', href: '/homeowners/by-heat-source/boiler' },
+                        { title: 'Direct Electric', description: 'ThermaSkirt-e: no pipework, no plumber required.', href: '/homeowners/by-heat-source/electric' },
+                        { title: 'Solar PV & Battery', description: 'Maximise self-consumption with smart electric heating.', href: '/homeowners/by-heat-source/solar' },
+                        { title: 'Biomass', description: 'Compatible with biomass boilers and renewable heat sources.', href: '/homeowners/by-heat-source/biomass' },
                     ]}
                 />
                 <TestimonialStrip
@@ -52,7 +52,7 @@ export default function HomeownersHub() {
                     tiles={[
                         { title: 'Renovation', description: 'Upgrade your heating without replastering every wall.', href: '/homeowners/by-project/renovation' },
                         { title: 'Extension', description: 'Heat your new space without extending your ductwork.', href: '/homeowners/by-project/extension' },
-                        { title: 'New Build & Self Build', description: 'Specify from day one for a cleaner, smarter build.', href: '/homeowners/by-project/new-build-self-build' },
+                        { title: 'New Build & Self Build', description: 'Specify from day one for a cleaner, smarter build.', href: '/homeowners/by-project/new-build' },
                         { title: 'Loft Conversion', description: 'Zero headroom loss — heating that follows the walls.', href: '/homeowners/by-project/loft-conversion' },
                         { title: 'Listed Building', description: 'Heritage-sensitive heating that satisfies conservation.', href: '/homeowners/by-project/listed-building' },
                         { title: 'Retrofit', description: 'Make your existing home heat-pump ready.', href: '/homeowners/by-project/retrofit' },

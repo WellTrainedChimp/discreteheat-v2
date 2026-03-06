@@ -34,7 +34,7 @@ export default function HeatPumpPage() {
 
                 <StatsStrip
                     stats={[
-                        { value: '+0.5', label: 'COP Improvement', source: 'Energy House 2.0 tested', href: '/specifiers/technical-data/energy-house' },
+                        { value: '+0.5', label: 'COP Improvement', source: 'Energy House 2.0 tested', href: '/specifiers/technical-data/energy-house-2-report' },
                         { value: '48%', label: 'Output Retained at dT20', source: 'vs 30% for radiators' },
                         { value: '35–45°C', label: 'Optimal Flow Range', source: 'maximises heat pump SCOP' },
                         { value: '£7,500', label: 'BUS Grant Compatible', source: 'Boiler Upgrade Scheme' },
@@ -47,7 +47,7 @@ export default function HeatPumpPage() {
                         <article>
                             <h2 className="text-3xl font-light text-dh-dark mb-6 tracking-tight">Skirting Board Heating for Heat Pumps</h2>
                             <p className="text-xl font-light text-dh-dark mb-12 leading-relaxed">
-                                ThermaSkirt H2O is designed to operate at 35–45°C flow temperatures, making it the most efficient skirting board heating emitter for air source and ground source heat pumps. At low flow temperatures, ThermaSkirt retains 48% of its rated output compared to 30% for conventional panel radiators—improving heat pump COP by 0.4 to 0.5 in real-world installations verified at the <Link href="/specifiers/technical-data/energy-house" className="text-dh-red hover:underline">University of Salford Energy House 2.0</Link>.
+                                ThermaSkirt H2O is designed to operate at 35–45°C flow temperatures, making it the most efficient skirting board heating emitter for air source and ground source heat pumps. At low flow temperatures, ThermaSkirt retains 48% of its rated output compared to 30% for conventional panel radiators—improving heat pump COP by 0.4 to 0.5 in real-world installations verified at the <Link href="/specifiers/technical-data/energy-house-2-report" className="text-dh-red hover:underline">University of Salford Energy House 2.0</Link>.
                             </p>
 
                             <span className="block text-[13px] font-semibold uppercase tracking-[0.08em] text-dh-red mb-4">Physics</span>

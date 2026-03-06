@@ -51,7 +51,7 @@ export default function ByHeatSourceSubHub() {
                     titleHighlight="any fuel."
                     description="Whether you're keeping your reliable combi boiler, upgrading to an air source heat pump, or going fully electric with solar PV, ThermaSkirt is independently tested and certified for every heating system on the market. Over 60,000 installations across the UK."
                     primaryCta={{ text: "Get a Free Quote", href: "/homeowners/get-a-quote" }}
-                    secondaryCta={{ text: "Not sure? Talk to us", href: "/contact" }}
+                    secondaryCta={{ text: "Not sure? Talk to us", href: "/homeowners/get-a-quote" }}
                 />
 
                 <section className="py-16 px-6 lg:px-12 bg-white">
@@ -86,7 +86,7 @@ export default function ByHeatSourceSubHub() {
                     primaryCTA="Get a Free Quote"
                     primaryCTALink="/homeowners/get-a-quote"
                     secondaryCTA="Talk to an Expert"
-                    secondaryCTALink="/contact"
+                    secondaryCTALink="/homeowners/get-a-quote"
                     additionalLinks={[
                         { text: "Compare ThermaSkirt vs Radiators", href: "/homeowners/vs/radiators" },
                         { text: "Compare ThermaSkirt vs Underfloor Heating", href: "/homeowners/vs/underfloor-heating" },

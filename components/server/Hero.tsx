@@ -42,7 +42,7 @@ export default function Hero() {
                     <Link href="#audience-grid" className="hp-btn-primary">
                         Find Your Solution
                     </Link>
-                    <Link href="/learn/what-is-skirting-board-heating/" className="hp-btn-secondary">
+                    <Link href="/homeowners" className="hp-btn-secondary">
                         How it works
                     </Link>
                 </div>
