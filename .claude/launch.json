@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["discreteheat-v2-main/node_modules/next/dist/bin/next", "dev", "--turbopack", "discreteheat-v2-main"],
+      "port": 3000
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+﻿   Ôû▓ Next.js 15.5.12 (Turbopack)
+
+node.exe : 
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (:St  
+  ring) [], RemoteExcept   
+ ion
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+> Build error occurred
+[Error: EINVAL: invalid 
+argument, readlink 'C:\User
+s\ethan\OneDrive\Desktop\DH
+ Website\discreteheat\.next
+\diagnostics\build-diagnost
+ics.json'] {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'readlink',
+  path: 'C:\\Users\\ethan\\
+OneDrive\\Desktop\\DH Websi
+te\\discreteheat\\.next\\di
+agnostics\\build-diagnostic
+s.json'
+}

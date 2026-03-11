@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npm --version)",
+      "Bash(ls discreteheat-v2-main/node_modules/.bin/next*)",
+      "Bash(node node_modules/next/dist/bin/next --help)",
+      "Bash(ls \"discreteheat-v2-main/discreteheat-v2-main/app/\\(hubs\\)/homeowners/by-heat-source/\")",
+      "Bash(ls -la \"C:\\\\Users\\\\ethan\\\\OneDrive\\\\Desktop\\\\DH Website\\\\discreteheat-v2-main/discreteheat-v2-main/app/\\(hubs\\)/homeowners/by-room/\")",
+      "Bash(ls -la \"C:\\\\Users\\\\ethan\\\\OneDrive\\\\Desktop\\\\DH Website\\\\discreteheat-v2-main\\\\discreteheat-v2-main\\\\app\\\\\\(hubs\\)\\\\homeowners\\\\by-room\"\")",
+      "Bash(find \"C:\\\\Users\\\\ethan\\\\OneDrive\\\\Desktop\\\\DH Website\\\\discreteheat-v2-main/discreteheat-v2-main/app\" -type d -name \"\\(hubs\\)\" -prune -o -type d -name \"homeowners\" -print)",
+      "Bash(ls -la \"C:\\\\Users\\\\ethan\\\\OneDrive\\\\Desktop\\\\DH Website\\\\discreteheat-v2-main/discreteheat-v2-main/app/\\(hubs\\)/homeowners/\")",
+      "Bash(xargs grep -l \"tags\\\\|category\\\\|metadata\")",
+      "Bash(wc -l \"C:\\\\Users\\\\ethan\\\\OneDrive\\\\Desktop\\\\DH Website\\\\discreteheat-v2-main\\\\discreteheat-v2-main\\\\app\\\\\\(hubs\\)\\\\homeowners\\\\by-room\\\\kitchen\\\\page.tsx\")",
+      "Bash(head -200 \"C:\\\\Users\\\\ethan\\\\OneDrive\\\\Desktop\\\\DH Website\\\\discreteheat-v2-main\\\\discreteheat-v2-main\\\\app\\\\\\(hubs\\)\\\\homeowners\\\\by-room\\\\home-office\\\\page.tsx\")",
+      "Bash(xargs grep -l \"video\\\\|Video\")"
+    ]
+  }
+}

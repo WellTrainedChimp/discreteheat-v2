@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-plus-jakarta), sans-serif;
+  --font-mono: var(--font-mono), monospace;
+
+  --color-dh-red: #D2232A;
+  --color-dh-red-dark: #B01D23;
+  --color-dh-dark: #1A1A1A;
+  --color-dh-grey: #65646A;
+  --color-dh-grey-light: #F5F5F5;
+  
+  --color-background: #F5F5F5;
+  --color-foreground: #1A1A1A;
+}
+
+:root {
+  --dh-red: #D2232A;
+  --dh-red-dark: #B01D23;
+  --dh-dark: #1A1A1A;
+  --dh-grey: #65646A;
+  --dh-grey-light: #F5F5F5;
+}
+
+body {
+  background-color: var(--dh-grey-light);
+  color: var(--dh-dark);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Micro-interactions & Buttons */
+.hp-btn-primary {
+  @apply inline-flex items-center justify-center bg-dh-red text-white py-3 px-6 rounded-[8px] font-medium transition-all duration-300;
+  box-shadow: 0 4px 18px rgba(210,35,42,0.30);
+}
+
+.hp-btn-primary:hover {
+  @apply bg-dh-red-dark text-white;
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(210,35,42,0.40);
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.hp-btn-secondary {
+  @apply inline-flex items-center justify-center bg-transparent text-white py-3 px-6 rounded-[8px] font-medium transition-all duration-300;
+  border: 1.5px solid rgba(255,255,255,0.25);
+}
+
+.hp-btn-secondary:hover {
+  @apply bg-white/5 border-white;
+  transform: translateY(-2px) scale(1.03);
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.hp-btn-white {
+  @apply inline-flex items-center justify-center bg-white text-dh-red py-3 px-6 rounded-[8px] font-medium transition-all duration-300;
+  box-shadow: 0 4px 18px rgba(255,255,255,0.2);
+}
+
+.hp-btn-white:hover {
+  @apply bg-gray-50;
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(255,255,255,0.3);
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+a.interactive-link {
+  @apply transition-transform duration-300 hover:-translate-y-[1px];
+}
+
+/* Section Labels */
+.section-label {
+  @apply text-[13px] font-semibold uppercase text-dh-red tracking-[0.08em] block mb-3;
+}
