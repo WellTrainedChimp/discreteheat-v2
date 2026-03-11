@@ -90,7 +90,7 @@ export default function DIYOrProPage() {
                                     </div>
                                     <div>
                                         <h4 className="text-lg font-semibold text-dh-dark">Prefer to leave it to the pros?</h4>
-                                        <p className="text-dh-grey">No problem. <a href="/homeowners/find-an-installer" className="text-dh-red font-semibold hover:underline">We'll connect you with a Registered Installer →</a></p>
+                                        <p className="text-dh-grey">No problem. <a href="/homeowners/find-an-installer" className="text-dh-red font-semibold hover:underline">We&apos;ll connect you with a Registered Installer →</a></p>
                                     </div>
                                 </li>
                             </ul>
